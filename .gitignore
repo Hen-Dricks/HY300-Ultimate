@@ -6,3 +6,5 @@ assets/logs/runs/*/tmp/
 
 # ADB serial file
 assets/logs/runs/*/raw/adb-serial.txt
+tvprojector
+CONTEXT.md
