@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell getenforce
+# Collected UTC: 2026-07-15T09:53:35Z
+# Timeout: 90s
+
+Permissive

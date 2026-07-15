@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sestatus
+# Collected UTC: 2026-07-15T09:53:35Z
+# Timeout: 90s
+
+/system/bin/sh: sestatus: inaccessible or not found

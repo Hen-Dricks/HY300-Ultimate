@@ -1,0 +1,24 @@
+# Command: adb -s [REDACTED_IP]:3268 shell df -h
+# Collected UTC: 2026-07-15T09:52:26Z
+# Timeout: 90s
+
+Filesystem            Size Used Avail Use% Mounted on
+tmpfs                 481M 1.1M  480M   1% /dev
+tmpfs                 481M    0  481M   0% /mnt
+/dev/block/mmcblk2p11  11M 120K   11M   2% /metadata
+/dev/block/dm-0       756M 753M     0 100% /
+/dev/block/dm-2       272M 271M     0 100% /vendor
+/dev/block/dm-4       819M 816M     0 100% /odm
+/dev/block/dm-1        71M  71M     0 100% /system_ext
+/dev/block/dm-3        21M  21M     0 100% /vendor_dlkm
+/dev/block/dm-5       232K  32K  196K  15% /odm_dlkm
+/dev/block/dm-6       200M 199M     0 100% /product
+tmpfs                 481M 8.0K  481M   1% /apex
+tmpfs                 481M 572K  481M   1% /linkerconfig
+/dev/block/mmcblk2p10 356M 320K  344M   1% /cache
+/dev/block/mmcblk2p14  58M  20K   56M   1% /cust
+/dev/block/mmcblk2p12  58M 1.2M   52M   3% /logo
+/dev/block/mmcblk2p16 3.7G 1.2G  2.4G  34% /data
+tmpfs                 481M    0  481M   0% /data_mirror
+/dev/fuse             3.7G 1.2G  2.4G  34% /storage/emulated
+/dev/fuse              29G 2.3G   27G   9% /storage/664B-19FD

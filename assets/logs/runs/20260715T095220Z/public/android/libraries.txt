@@ -1,0 +1,21 @@
+# Command: adb -s [REDACTED_IP]:3268 shell pm list libraries
+# Collected UTC: 2026-07-15T09:52:22Z
+# Timeout: 90s
+
+library:android.ext.shared
+library:android.hidl.base-V1.0-java
+library:android.hidl.manager-V1.0-java
+library:android.net.ipsec.ike
+library:android.test.base
+library:android.test.mock
+library:android.test.runner
+library:com.android.cts.ctsshim.shared_library
+library:com.android.future.usb.accessory
+library:com.android.location.provider
+library:com.android.media.remotedisplay
+library:com.android.media.tv.remoteprovider
+library:com.android.mediadrm.signer
+library:com.google.android.gms
+library:javax.obex
+library:libOpenCL.so
+library:org.apache.http.legacy

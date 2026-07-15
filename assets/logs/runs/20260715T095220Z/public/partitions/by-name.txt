@@ -1,0 +1,24 @@
+# Command: adb -s [REDACTED_IP]:3268 shell ls -l /dev/block/by-name
+# Collected UTC: 2026-07-15T09:52:25Z
+# Timeout: 90s
+
+total 0
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 backup -> /dev/block/mmcblk2p9
+lrwxrwxrwx 1 root root 21 1970-01-01 00:00 baseparameter -> /dev/block/mmcblk2p13
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 boot -> /dev/block/mmcblk2p7
+lrwxrwxrwx 1 root root 21 1970-01-01 00:00 cache -> /dev/block/mmcblk2p10
+lrwxrwxrwx 1 root root 21 1970-01-01 00:00 cust -> /dev/block/mmcblk2p14
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 dtbo -> /dev/block/mmcblk2p5
+lrwxrwxrwx 1 root root 21 1970-01-01 00:00 logo -> /dev/block/mmcblk2p12
+lrwxrwxrwx 1 root root 21 1970-01-01 00:00 metadata -> /dev/block/mmcblk2p11
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 misc -> /dev/block/mmcblk2p4
+lrwxrwxrwx 1 root root 18 1970-01-01 00:00 mmcblk2 -> /dev/block/mmcblk2
+lrwxrwxrwx 1 root root 23 1970-01-01 00:00 mmcblk2boot0 -> /dev/block/mmcblk2boot0
+lrwxrwxrwx 1 root root 23 1970-01-01 00:00 mmcblk2boot1 -> /dev/block/mmcblk2boot1
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 recovery -> /dev/block/mmcblk2p8
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 security -> /dev/block/mmcblk2p1
+lrwxrwxrwx 1 root root 21 1970-01-01 00:00 super -> /dev/block/mmcblk2p15
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 trust -> /dev/block/mmcblk2p3
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 uboot -> /dev/block/mmcblk2p2
+lrwxrwxrwx 1 root root 21 1970-01-01 00:00 userdata -> /dev/block/mmcblk2p16
+lrwxrwxrwx 1 root root 20 1970-01-01 00:00 vbmeta -> /dev/block/mmcblk2p6

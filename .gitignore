@@ -1,0 +1,8 @@
+.DS_Store
+
+# Raw device logs contain unredacted personal data — never publish
+assets/logs/runs/*/raw/
+assets/logs/runs/*/tmp/
+
+# ADB serial file
+assets/logs/runs/*/raw/adb-serial.txt

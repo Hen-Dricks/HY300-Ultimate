@@ -1,0 +1,7 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c getprop | grep -i dns
+# Collected UTC: 2026-07-15T09:53:35Z
+# Timeout: 90s
+
+[init.svc.mdnsd]: [running]
+[init.svc_debug_pid.mdnsd]: [405]
+[ro.boottime.mdnsd]: [18835948163]

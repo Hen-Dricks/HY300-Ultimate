@@ -1,0 +1,17 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA-256-Digest-Manifest: Qk4XGk9abdhD+H1mWejWbx3W3Tt+CitIuLDogR9oxAo=
+X-Android-APK-Signed: 2
+
+Name: AndroidManifest.xml
+SHA-256-Digest: Dd4G0rlTYmFNnxHygYNK7NX/RHQgIOwtFBBESYO8TGs=
+
+Name: lib/arm64-v8a/libshim_jni.so
+SHA-256-Digest: T3Slh1QE0aK5P3CzJj8nZ2VYWPbgck8DGKs/6VIGrcc=
+
+Name: lib/armeabi-v7a/libshim_jni.so
+SHA-256-Digest: zzIRKREu2fqKGPFbeU1uZiZU2xtX5cHKu22NZQcp2Zc=
+
+Name: resources.arsc
+SHA-256-Digest: NejP57Wm6HP+zdMmN4LRoeD8MAJBTWAutl+DV9yOh20=
+

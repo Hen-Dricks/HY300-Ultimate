@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell cmd package resolve-activity --brief android.intent.action.VIEW -d file:///sdcard/example.apk -t application/vnd.android.package-archive
+# Collected UTC: 2026-07-15T09:52:25Z
+# Timeout: 90s
+
+No activity found

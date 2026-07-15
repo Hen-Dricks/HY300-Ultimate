@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c for d in /sys/block/*; do echo "## $d"; cat "$d/size" 2>/dev/null; cat "$d/queue/logical_block_size" 2>/dev/null; done
+# Collected UTC: 2026-07-15T09:52:21Z
+# Timeout: 90s
+
+/system/bin/sh: syntax error: unexpected 'do'

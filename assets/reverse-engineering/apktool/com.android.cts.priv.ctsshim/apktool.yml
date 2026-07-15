@@ -1,0 +1,16 @@
+version: 3.0.2
+apkFileName: CtsShimPrivPrebuilt.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 24
+  targetSdkVersion: 28
+versionInfo:
+  versionCode: 31
+  versionName: 12-7552332
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- so

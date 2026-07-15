@@ -1,0 +1,303 @@
+---
+title: "Security Posture Report"
+run_id: "20260715T095220Z"
+generated_utc: "2026-07-15 09:53:41Z"
+---
+
+# Security Posture Report
+
+## SELinux Mode
+
+```text
+Permissive
+```
+
+## Verified Boot and AVB Properties
+
+```text
+[ro.boot.veritymode]: [enforcing]
+```
+
+## Process Security Contexts
+
+```text
+LABEL                          USER           PID  PPID     VSZ    RSS WCHAN            ADDR S NAME                       
+u:r:init:s0                    root             1     0   45184   3960 0                   0 S init
+u:r:kernel:s0                  root             2     0       0      0 0                   0 S [kthreadd]
+u:r:kernel:s0                  root             3     2       0      0 0                   0 I [rcu_gp]
+u:r:kernel:s0                  root             4     2       0      0 0                   0 I [rcu_par_gp]
+u:r:kernel:s0                  root             8     2       0      0 0                   0 I [mm_percpu_wq]
+u:r:kernel:s0                  root             9     2       0      0 0                   0 S [ksoftirqd/0]
+u:r:kernel:s0                  root            10     2       0      0 0                   0 I [rcu_preempt]
+u:r:kernel:s0                  root            11     2       0      0 0                   0 I [rcu_sched]
+u:r:kernel:s0                  root            12     2       0      0 0                   0 I [rcu_bh]
+u:r:kernel:s0                  root            13     2       0      0 0                   0 S [migration/0]
+u:r:kernel:s0                  root            15     2       0      0 0                   0 S [cpuhp/0]
+u:r:kernel:s0                  root            16     2       0      0 0                   0 S [cpuhp/1]
+u:r:kernel:s0                  root            17     2       0      0 0                   0 S [migration/1]
+u:r:kernel:s0                  root            18     2       0      0 0                   0 S [ksoftirqd/1]
+u:r:kernel:s0                  root            21     2       0      0 0                   0 S [cpuhp/2]
+u:r:kernel:s0                  root            22     2       0      0 0                   0 S [migration/2]
+u:r:kernel:s0                  root            23     2       0      0 0                   0 S [ksoftirqd/2]
+u:r:kernel:s0                  root            26     2       0      0 0                   0 S [cpuhp/3]
+u:r:kernel:s0                  root            27     2       0      0 0                   0 S [migration/3]
+u:r:kernel:s0                  root            28     2       0      0 0                   0 S [ksoftirqd/3]
+u:r:kernel:s0                  root            29     2       0      0 0                   0 I [kworker/3:0-sock_diag_events]
+u:r:kernel:s0                  root            31     2       0      0 0                   0 S [kdevtmpfs]
+u:r:kernel:s0                  root            32     2       0      0 0                   0 I [kworker/u8:1-cfg80211]
+u:r:kernel:s0                  root            33     2       0      0 0                   0 I [netns]
+u:r:kernel:s0                  root            34     2       0      0 0                   0 S [rcu_tasks_kthre]
+u:r:kernel:s0                  root            35     2       0      0 0                   0 I [kworker/3:1-events]
+u:r:kernel:s0                  root            36     2       0      0 0                   0 S [kauditd]
+u:r:kernel:s0                  root            38     2       0      0 0                   0 I [kworker/2:1-events]
+u:r:kernel:s0                  root            39     2       0      0 0                   0 S [khungtaskd]
+u:r:kernel:s0                  root            40     2       0      0 0                   0 S [oom_reaper]
+u:r:kernel:s0                  root            41     2       0      0 0                   0 I [writeback]
+u:r:kernel:s0                  root            42     2       0      0 0                   0 S [kcompactd0]
+u:r:kernel:s0                  root            43     2       0      0 0                   0 I [crypto]
+u:r:kernel:s0                  root            44     2       0      0 0                   0 I [kblockd]
+u:r:kernel:s0                  root            46     2       0      0 0                   0 I [blk_crypto_wq]
+u:r:kernel:s0                  root            47     2       0      0 0                   0 I [devfreq_wq]
+u:r:kernel:s0                  root            48     2       0      0 0                   0 S [watchdogd]
+u:r:kernel:s0                  root            49     2       0      0 0                   0 S [cfinteractive]
+u:r:kernel:s0                  root            50     2       0      0 0                   0 I [cfg80211]
+u:r:kernel:s0                  root            51     2       0      0 0                   0 S [kswapd0]
+u:r:kernel:s0                  root            52     2       0      0 0                   0 S [irq/45-rockchip]
+u:r:kernel:s0                  root            53     2       0      0 0                   0 S [irq/46-rockchip]
+u:r:kernel:s0                  root            54     2       0      0 0                   0 S [irq/47-rockchip]
+u:r:kernel:s0                  root            55     2       0      0 0                   0 S [irq/48-rockchip]
+u:r:kernel:s0                  root            56     2       0      0 0                   0 S [queue_work0]
+u:r:kernel:s0                  root            57     2       0      0 0                   0 S [irq/32-ff440000]
+u:r:kernel:s0                  root            58     2       0      0 0                   0 S [irq/29-ff442400]
+u:r:kernel:s0                  root            59     2       0      0 0                   0 S [irq/31-ff442000]
+u:r:kernel:s0                  root            60     2       0      0 0                   0 S [hwrng]
+u:r:kernel:s0                  root            61     2       0      0 0                   0 I [gpu_power_off_w]
+u:r:kernel:s0                  root            62     2       0      0 0                   0 S [mali-simple-pow]
+u:r:kernel:s0                  root            64     2       0      0 0                   0 I [kbase_job_fault]
+u:r:kernel:s0                  root            65     2       0      0 0                   0 D [motor_run]
+u:r:kernel:s0                  root            66     2       0      0 0                   0 S [dmabuf-deferred]
+u:r:kernel:s0                  root            67     2       0      0 0                   0 I [nvme-wq]
+u:r:kernel:s0                  root            68     2       0      0 0                   0 I [nvme-reset-wq]
+u:r:kernel:s0                  root            69     2       0      0 0                   0 I [nvme-delete-wq]
+u:r:kernel:s0                  root            70     2       0      0 0                   0 I [kworker/u8:2-flush-179:0]
+u:r:kernel:s0                  root            71     2       0      0 0                   0 I [uas]
+u:r:kernel:s0                  root            72     2       0      0 0                   0 I [goodix_wq]
+u:r:kernel:s0                  root            73     2       0      0 0                   0 S [irq/50-rk628_cs]
+u:r:kernel:s0                  root            74     2       0      0 0                   0 S [irq/51-rk628_cs]
+u:r:kernel:s0                  root            75     2       0      0 0                   0 S [irq/19-rockchip]
+u:r:kernel:s0                  root            76     2       0      0 0                   0 I [dm_bufio_cache]
+u:r:kernel:s0                  root            78     2       0      0 0                   0 I [cryptodev_queue]
+u:r:kernel:s0                  root            79     2       0      0 0                   0 S [ion_system_heap]
+u:r:kernel:s0                  root            80     2       0      0 0                   0 I [kworker/1:2-mm_percpu_wq]
+u:r:kernel:s0                  root            81     2       0      0 0                   0 I [kworker/0:2-events]
+u:r:kernel:s0                  root            82     2       0      0 0                   0 I [ipv6_addrconf]
+u:r:kernel:s0                  root            83     2       0      0 0                   0 S [krfcommd]
+u:r:kernel:s0                  root            84     2       0      0 0                   0 I [mmc_complete]
+u:r:kernel:s0                  root            86     2       0      0 0                   0 I [kworker/0:1H-kblockd]
+u:r:kernel:s0                  root            88     2       0      0 0                   0 I [mmc_complete]
+u:r:kernel:s0                  root            89     2       0      0 0                   0 S [irq/36-rga2]
+u:r:kernel:s0                  root            94     2       0      0 0                   0 I [kworker/2:1H-kblockd]
+u:r:kernel:s0                  root            95     2       0      0 0                   0 I [kworker/3:1H-kblockd]
+u:r:kernel:s0                  root            96     2       0      0 0                   0 S [jbd2/mmcblk2p11]
+u:r:kernel:s0                  root            97     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root            98     2       0      0 0                   0 I [kdmflush]
+u:r:kernel:s0                  root            99     2       0      0 0                   0 I [kdmflush]
+u:r:kernel:s0                  root           100     2       0      0 0                   0 I [kdmflush]
+u:r:kernel:s0                  root           101     2       0      0 0                   0 I [kdmflush]
+u:r:kernel:s0                  root           102     2       0      0 0                   0 I [kdmflush]
+u:r:kernel:s0                  root           103     2       0      0 0                   0 I [kdmflush]
+u:r:kernel:s0                  root           104     2       0      0 0                   0 I [kdmflush]
+u:r:kernel:s0                  root           105     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           106     2       0      0 0                   0 I [kworker/1:2H-kblockd]
+u:r:kernel:s0                  root           107     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           108     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           109     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           110     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           112     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           113     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:vendor_init:s0             root           116     1   13032   2272 0                   0 S init
+u:r:ueventd:s0                 root           118     1   13692   2516 0                   0 S ueventd
+u:r:logd:s0                    logd           130     1   16172   3224 0                   0 S logd
+u:r:lmkd:s0                    lmkd           131     1    8596   2792 0                   0 S lmkd
+u:r:servicemanager:s0          system         132     1   11964   3392 0                   0 S servicemanager
+u:r:hwservicemanager:s0        system         133     1   12240   3860 0                   0 S hwservicemanager
+u:r:vndservicemanager:s0       system         134     1   10908   2356 0                   0 S vndservicemanager
+u:r:kernel:s0                  root           135     2       0      0 0                   0 S [psimon]
+u:r:hal_keymint_default:s0     nobody         137     1   13864   3224 0                   0 S android.hardware.security.keymint-service.optee
+u:r:vold:s0                    root           138     1   21560   3760 0                   0 S vold
+u:r:kernel:s0                  root           151     2       0      0 0                   0 S [jbd2/mmcblk2p10]
+u:r:kernel:s0                  root           152     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           156     2       0      0 0                   0 S [jbd2/mmcblk2p14]
+u:r:kernel:s0                  root           157     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:kernel:s0                  root           161     2       0      0 0                   0 S [jbd2/mmcblk2p12]
+u:r:kernel:s0                  root           162     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:tee:s0                     root           164     1   11056   1996 0                   0 S tee-supplicant
+u:r:system_suspend:s0          system         165     1   15000   3360 0                   0 S android.system.suspend@1.0-service
+u:r:keystore:s0                keystore       166     1   33032   5528 0                   0 S keystore2
+u:r:surfaceflinger:s0          system         172     1   86220  14316 0                   0 S surfaceflinger
+u:r:kernel:s0                  root           183     2       0      0 0                   0 S [jbd2/mmcblk2p16]
+u:r:kernel:s0                  root           184     2       0      0 0                   0 I [ext4-rsv-conver]
+u:r:tombstoned:s0              tombstoned     195     1    7704   1948 0                   0 S tombstoned
+u:r:kernel:s0                  root           200     2       0      0 0                   0 I [kbase_event]
+u:r:hal_graphics_allocator_default:s0 system  211     1   16312   3120 0                   0 S android.hardware.graphics.allocator@4.0-service
+u:r:hal_graphics_composer_default:s0 system   221     1   65144   3436 0                   0 S android.hardware.graphics.composer@2.1-service
+u:r:statsd:s0                  statsd         266     1   20344   3196 0                   0 S statsd
+u:r:netd:s0                    root           267     1   32340   4876 0                   0 S netd
+u:r:zygote:s0                  root           268     1 1226328  34780 0                   0 S zygote
+u:r:hal_allocator_default:s0   system         272     1   10112   2492 0                   0 S android.hidl.allocator@1.0-service
+u:r:hal_audio_default:s0       audioserver    273     1   25832   2624 0                   0 S android.hardware.audio.service
+u:r:hal_bluetooth_default:s0   bluetooth      274     1   17812   2344 0                   0 S android.hardware.bluetooth@1.0-service
+u:r:hal_camera_default:s0      cameraserver   275     1   25176   2704 0                   0 S android.hardware.camera.provider@2.4-external-service
+u:r:hal_camera_default:s0      cameraserver   276     1   30384   2864 0                   0 S android.hardware.camera.provider@2.4-service
+u:r:hal_gatekeeper_default:s0  system         277     1   12272   2316 0                   0 S android.hardware.gatekeeper@1.0-service.optee
+u:r:netd:s0                    root           278   267    7708   2080 0                   0 S iptables-restore
+u:r:netd:s0                    root           279   267    7708   2120 0                   0 S ip6tables-restore
+u:r:hal_health_default:s0      system         281     1   11376   2844 0                   0 S android.hardware.health@2.1-service
+u:r:mediacodec:s0              mediacodec     282     1   33264   2044 0                   0 S android.hardware.media.c2@1.1-service
+u:r:hal_sensors_default:s0     system         283     1   12604   2584 0                   0 S android.hardware.sensors@1.0-service
+u:r:weaver-hal-1-0:s0          system         284     1   12688   2332 0                   0 S android.hardware.weaver@1.0-service
+u:r:hal_wifi_default:s0        wifi           285     1   17280   2868 0                   0 S android.hardware.wifi@1.0-service
+u:r:hal_light_default:s0       system         286     1   10664   3008 0                   0 S android.hardware.lights-service.rockchip
+u:r:hal_power_default:s0       root           289     1   11012   3016 0                   0 S android.hardware.power-service.rockchip
+u:r:vendor-rockit-hal-1-0:s0   media          291     1   18040   2368 0                   0 S rockchip.hardware.rockit.hw@1.0-service
+u:r:audioserver:s0             audioserver    292     1   53392   5000 0                   0 S audioserver
+u:r:credstore:s0               credstore      293     1   13420   3516 0                   0 S credstore
+u:r:gpuservice:s0              gpu_service    294     1   18484   3372 0                   0 S gpuservice
+u:r:drmserver:s0               drm            320     1   17112   3160 0                   0 S drmserver
+u:r:cameraserver:s0            cameraserver   322     1   41300   4064 0                   0 S cameraserver
+u:r:incidentd:s0               incidentd      324     1   13964   3100 0                   0 S incidentd
+u:r:installd:s0                root           325     1   17576   3576 0                   0 S installd
+u:r:mediaextractor:s0          mediaex        326     1   39364   4548 0                   0 S media.extractor
+u:r:mediametrics:s0            media          327     1   22720   3436 0                   0 S media.metrics
+u:r:kernel:s0                  root           328     2       0      0 0                   0 S [skw_sdio_rx_thr]
+u:r:mediaserver:s0             media          331     1   45916   4416 0                   0 S mediaserver
+u:r:storaged:s0                root           334     1   16856   3324 0                   0 S storaged
+u:r:wificond:s0                wifi           335     1   15528   3888 0                   0 S wificond
+u:r:mediacodec:s0              mediacodec     336     1   29244   2780 0                   0 S media.codec
+u:r:mediaswcodec:s0            mediacodec     344     1   51584   3924 0                   0 S media.swcodec
+u:r:kernel:s0                  root           364     2       0      0 0                   0 I [kworker/0:3H-mmc_complete]
+u:r:kernel:s0                  root           365     2       0      0 0                   0 I [skw_evt_wq.1]
+u:r:mdnsd:s0                   mdnsr          405     1    2548    852 0                   0 S mdnsd
+u:r:gatekeeperd:s0             system         406     1   13932   3632 0                   0 S gatekeeperd
+u:r:system_server:s0           system         421   268 1847232 136864 0                   0 S system_server
+u:r:kernel:s0                  root           508     2       0      0 0                   0 I [kworker/u9:3-fscrypt_read_q
+
+[Output truncated in report; see raw log.]
+```
+
+## Device Policy
+
+```text
+Current Device Policy Manager state:
+  Immutable state:
+    mHasFeature=true
+    mIsWatch=false
+    mIsAutomotive=false
+    mHasTelephonyFeature=false
+    mSafetyChecker=null
+  
+  
+  
+  Enabled Device Admins (User 0, provisioningState: 0):
+  
+    mPasswordOwner=-1
+    mUserControlDisabledPackages=[]
+    mAppsSuspended=false
+    mUserSetupComplete=true
+    mAffiliationIds={}
+    mNewUserDisclaimer=null
+  
+    PersonalAppsSuspensionHelper
+      critical packages: empty
+      launcher packages: 2 apps
+        0: com.shzhtxcz.txbox.launcher
+        1: com.android.tv.set
+      accessibility services: empty
+      input method packages: 1 app
+        0: com.android.inputmethod.latin
+      SMS package: null
+      Settings package: com.android.tv.settings
+      Packages subject to suspension: 14 apps
+        0: com.cybercat.adbappcontrol.tv
+        1: com.lonelycatgames.Xplore
+        2: com.android.rockchip.camera2
+        3: com.roysolberg.android.developertools
+        4: com.amazon.amazonvideo.livingroom
+        5: com.rockchips.mediacenter
+        6: org.xbmc.kodi
+        7: com.netflix.mediaclient
+        8: com.bozee.usbdisplay
+        9: com.surfshark.vpnclient.android
+        10: com.google.android.youtube.tv
+        11: by4a.setedit22
+        12: com.xugame.gameconsole
+        13: com.rockchip.itvbox
+  
+  
+  Constants:
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_SEC: 3600
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_INCREASE: 2.0
+    DAS_DIED_SERVICE_RECONNECT_MAX_BACKOFF_SEC: 86400
+    DAS_DIED_SERVICE_STABLE_CONNECTION_THRESHOLD_SEC: 120
+  
+  Stats:
+    LockGuard.guard(): count=492, total=14.8ms, avg=0.030ms, max calls/s=50 max dur/s=5.6ms max time=5.6ms
+  
+  Encryption Status: per-user
+  Logout user: 0
+  
+  no pending user created callback tokens
+  
+  Device policy cache:
+    Screen capture disabled: {0=false}
+    Password quality: {0=0}
+    Permission policy: {0=0}
+    Admin can grant sensors permission: {0=false}
+  
+  Device state cache:
+    Device provisioned: true
+  
+  OverlayPackagesProvider
+    required_apps_managed_device: 9 apps
+      0: com.android.settings
+      1: com.android.systemui
+      2: com.android.contacts
+      3: com.android.dialer
+      4: com.android.stk
+      5: com.android.providers.downloads
+      6: com.android.providers.downloads.ui
+      7: com.android.documentsui
+      8: com.android.cellbroadcastreceiver
+    required_apps_managed_user: 8 apps
+      0: com.android.settings
+      1: com.android.systemui
+      2: com.android.contacts
+      3: com.android.dialer
+      4: com.android.stk
+      5: com.android.providers.downloads
+      6: com.android.providers.downloads.ui
+      7: com.android.documentsui
+    required_apps_managed_profile: 6 apps
+      0: com.android.contacts
+      1: com.android.settings
+      2: com.android.systemui
+      3: com.android.providers.downloads
+      4: com.android.providers.downloads.ui
+      5: com.android.documentsui
+    disallowed_apps_managed_device: empty
+    disallowed_apps_managed_user: empty
+    disallowed_apps_managed_device: empty
+    vendor_required_apps_managed_device: empty
+    vendor_required_apps_managed_user: empty
+    vendor_required_apps_managed_profile: empty
+    vendor_disallowed_apps_managed_user: empty
+    vendor_disallowed_apps_managed_device: empty
+    vendor_disallowed_apps_managed_profile: empty
+  
+  Other overlayable app resources
+    cross_profile_apps: empty
+    vendor_cross_profile_apps: empty
+    config_packagesExemptFromSuspension: empty
+    policy_exempt_apps: empty
+    vendor_policy_exempt_apps: empty
+```

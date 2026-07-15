@@ -1,0 +1,6 @@
+# Command: adb -s [REDACTED_IP]:3268 shell pm list users
+# Collected UTC: 2026-07-15T09:53:36Z
+# Timeout: 90s
+
+Users:
+	UserInfo{0:Owner:c13} running

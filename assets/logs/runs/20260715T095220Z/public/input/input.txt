@@ -1,0 +1,562 @@
+# Command: adb -s [REDACTED_IP]:3268 shell dumpsys input
+# Collected UTC: 2026-07-15T09:53:32Z
+# Timeout: 90s
+
+INPUT MANAGER (dumpsys input)
+
+Input Manager State:
+  Interactive: true
+  System UI Lights Out: false
+  Pointer Speed: 0
+  Pointer Gestures Enabled: true
+  Show Touches: false
+  Pointer Capture: Disabled, seq=0
+
+Event Hub State:
+  BuiltInKeyboardId: -2
+  Devices:
+    9: Twin USB Joystick Consumer Control
+      Classes: KEYBOARD | LIGHT | INPUT_DEVICE_CLASS_KEYMOUSE | EXTERNAL
+      Path: /dev/input/event8
+      Enabled: true
+      Descriptor: 17c343a7ad49896756ceda91515a70786c5a39e4
+      Location: usb-ff300000.usb-1/input2
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0003, vendor=0x20bc, product=0x5500, version=0x0111
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+    8: Twin USB Joystick System Control
+      Classes: KEYBOARD | LIGHT | INPUT_DEVICE_CLASS_KEYMOUSE | EXTERNAL
+      Path: /dev/input/event7
+      Enabled: true
+      Descriptor: e2d35dfa942c1bac550ebd51eb8f58ca17901ef3
+      Location: usb-ff300000.usb-1/input2
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0003, vendor=0x20bc, product=0x5500, version=0x0111
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+    7: Twin USB Joystick
+      Classes: KEYBOARD | GAMEPAD | JOYSTICK | LIGHT | INPUT_DEVICE_CLASS_KEYMOUSE | EXTERNAL
+      Path: /dev/input/event6
+      Enabled: true
+      Descriptor: eed0172ff3b1749f3fd30365eabf65ce6389c8d2
+      Location: usb-ff300000.usb-1/input1
+      ControllerNumber: 2
+      UniqueId: 
+      Identifier: bus=0x0003, vendor=0x20bc, product=0x5500, version=0x0111
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+    6: Twin USB Joystick
+      Classes: KEYBOARD | GAMEPAD | JOYSTICK | LIGHT | INPUT_DEVICE_CLASS_KEYMOUSE | EXTERNAL
+      Path: /dev/input/event5
+      Enabled: true
+      Descriptor: a79407f86033882279c195653dfd017b95573cf1
+      Location: usb-ff300000.usb-1/input0
+      ControllerNumber: 1
+      UniqueId: 
+      Identifier: bus=0x0003, vendor=0x20bc, product=0x5500, version=0x0111
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+    2: adc-keys
+      Classes: KEYBOARD | LIGHT | INPUT_DEVICE_CLASS_KEYMOUSE
+      Path: /dev/input/event4
+      Enabled: true
+      Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+      Location: adc-keys/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+    -1: Virtual
+      Classes: KEYBOARD | ALPHAKEY | DPAD | VIRTUAL
+      Path: <virtual>
+      Enabled: true
+      Descriptor: a718a782d34bc767f4689c232d64d527998ea7fd
+      Location: 
+      ControllerNumber: 0
+      UniqueId: <virtual>
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Virtual.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+    3: ff200010.pwm
+      Classes: KEYBOARD | DPAD | LIGHT | INPUT_DEVICE_CLASS_KEYMOUSE
+      Path: /dev/input/event0
+      Enabled: true
+      Descriptor: 6e6866b287cdd04b028ef220947dd504c325d316
+      Location: gpio-keys/remotectl
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x524b, product=0x0006, version=0x0100
+      KeyLayoutFile: /vendor/usr/keylayout/ff200010_pwm.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+    5: gpio-keys
+      Classes: KEYBOARD | LIGHT | INPUT_DEVICE_CLASS_KEYMOUSE
+      Path: /dev/input/event1
+      Enabled: true
+      Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+      Location: gpio-keys/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      VideoDevice: <none>
+  Unattached video devices:
+    <none>
+
+Input Reader State (Nums of device: 7):
+  Device 7: Twin USB Joystick Consumer Control
+    EventHub Devices: [ 9 ] 
+    Generation: 23
+    IsExternal: true
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: 0x00002103
+    KeyboardType: 1
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Input Controller:
+      Lights:
+        Id: 8        Name: modalias        Type: MONO        Color: 0x0
+        Id: 7        Name: subsystem        Type: MONO        Color: 0x0
+        Id: 6        Name: driver_override        Type: MONO        Color: 0x0
+        Id: 5        Name: driver        Type: MONO        Color: 0x0
+        Id: 4        Name: leds        Type: MONO        Color: 0x0
+        Id: 3        Name: power        Type: MONO        Color: 0x0
+        Id: 2        Name: of_node        Type: MONO        Color: 0x0
+        Id: 1        Name: uevent        Type: MONO        Color: 0x0
+      RawLights:
+        Id:	 Name:	 Flags:	 Max brightness:	 Brightness
+        8        modalias        0x0        255        -1
+        7        subsystem        0x0        255        -1
+        6        driver_override        0x0        255        -1
+        5        driver        0x0        255        -1
+        4        leds        RED | GREEN        255        -1
+        3        power        0x0        255        -1
+        2        of_node        RED | GREEN        255        -1
+        1        uevent        0x0        255        -1
+  Device 6: Twin USB Joystick System Control
+    EventHub Devices: [ 8 ] 
+    Generation: 20
+    IsExternal: true
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: 0x00002103
+    KeyboardType: 1
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Input Controller:
+      Lights:
+        Id: 8        Name: modalias        Type: MONO        Color: 0x0
+        Id: 7        Name: subsystem        Type: MONO        Color: 0x0
+        Id: 6        Name: driver_override        Type: MONO        Color: 0x0
+        Id: 5        Name: driver        Type: MONO        Color: 0x0
+        Id: 4        Name: leds        Type: MONO        Color: 0x0
+        Id: 3        Name: power        Type: MONO        Color: 0x0
+        Id: 2        Name: of_node        Type: MONO        Color: 0x0
+        Id: 1        Name: uevent        Type: MONO        Color: 0x0
+      RawLights:
+        Id:	 Name:	 Flags:	 Max brightness:	 Brightness
+        8        modalias        0x0        255        -1
+        7        subsystem        0x0        255        -1
+        6        driver_override        0x0        255        -1
+        5        driver        0x0        255        -1
+        4        leds        RED | GREEN        255        -1
+        3        power        0x0        255        -1
+        2        of_node        RED | GREEN        255        -1
+        1        uevent        0x0        255        -1
+  Device 5: Twin USB Joystick
+    EventHub Devices: [ 7 ] 
+    Generation: 17
+    IsExternal: true
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: 0x01002513
+    KeyboardType: 1
+    ControllerNum: 2
+    Motion Ranges:
+      HAT_Y: source=0x01000010, min=-1.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      BRAKE: source=0x01000010, min=0.000, max=1.000, flat=0.059, fuzz=0.000, resolution=0.000
+      GAS: source=0x01000010, min=0.000, max=1.000, flat=0.059, fuzz=0.000, resolution=0.000
+      Z: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+      Y: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+      HAT_X: source=0x01000010, min=-1.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      RZ: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+      X: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Joystick Input Mapper:
+      Axes:
+        HAT_Y: min=-1.00000, max=1.00000, flat=0.00000, fuzz=0.00000, resolution=0.00000
+          scale=1.00000, offset=-0.00000, highScale=1.00000, highOffset=-0.00000
+          rawAxis=17, rawMin=-1, rawMax=1, rawFlat=0, rawFuzz=0, rawResolution=0
+        BRAKE: min=0.00000, max=1.00000, flat=0.05882, fuzz=0.00000, resolution=0.00000
+          scale=0.00392, offset=0.00000, highScale=0.00392, highOffset=0.00000
+          rawAxis=10, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        GAS: min=0.00000, max=1.00000, flat=0.05882, fuzz=0.00000, resolution=0.00000
+          scale=0.00392, offset=0.00000, highScale=0.00392, highOffset=0.00000
+          rawAxis=9, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        Z: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=2, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        Y: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=1, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        HAT_X: min=-1.00000, max=1.00000, flat=0.00000, fuzz=0.00000, resolution=0.00000
+          scale=1.00000, offset=-0.00000, highScale=1.00000, highOffset=-0.00000
+          rawAxis=16, rawMin=-1, rawMax=1, rawFlat=0, rawFuzz=0, rawResolution=0
+        RZ: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=5, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        X: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=0, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+    Input Controller:
+      Lights:
+        Id: 8        Name: modalias        Type: MONO        Color: 0x0
+        Id: 7        Name: subsystem        Type: MONO        Color: 0x0
+        Id: 6        Name: driver_override        Type: MONO        Color: 0x0
+        Id: 5        Name: driver        Type: MONO        Color: 0x0
+        Id: 4        Name: leds        Type: MONO        Color: 0x0
+        Id: 3        Name: power        Type: MONO        Color: 0x0
+        Id: 2        Name: of_node        Type: MONO        Color: 0x0
+        Id: 1        Name: uevent        Type: MONO        Color: 0x0
+      RawLights:
+        Id:	 Name:	 Flags:	 Max brightness:	 Brightness
+        8        modalias        0x0        255        -1
+        7        subsystem        0x0        255        -1
+        6        driver_override        0x0        255        -1
+        5        driver        0x0        255        -1
+        4        leds        RED | GREEN        255        -1
+        3        power        0x0        255        -1
+        2        of_node        RED | GREEN        255        -1
+        1        uevent        0x0        255        -1
+  Device 3: ff200010.pwm
+    EventHub Devices: [ 3 ] 
+    Generation: 9
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: 0x00002303
+    KeyboardType: 1
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 259167596000
+    Input Controller:
+      Lights:
+        Id: 8        Name: modalias        Type: MONO        Color: 0x0
+        Id: 7        Name: subsystem        Type: MONO        Color: 0x0
+        Id: 6        Name: driver_override        Type: MONO        Color: 0x0
+        Id: 5        Name: driver        Type: MONO        Color: 0x0
+        Id: 4        Name: leds        Type: MONO        Color: 0x0
+        Id: 3        Name: power        Type: MONO        Color: 0x0
+        Id: 2        Name: of_node        Type: MONO        Color: 0x0
+        Id: 1        Name: uevent        Type: MONO        Color: 0x0
+      RawLights:
+        Id:	 Name:	 Flags:	 Max brightness:	 Brightness
+        8        modalias        0x0        255        -1
+        7        subsystem        0x0        255        -1
+        6        driver_override        0x0        255        -1
+        5        driver        0x0        255        -1
+        4        leds        RED | GREEN        255        -1
+        3        power        0x0        255        -1
+        2        of_node        RED | GREEN        255        -1
+        1        uevent        0x0        255        -1
+  Device 4: Twin USB Joystick
+    EventHub Devices: [ 6 ] 
+    Generation: 14
+    IsExternal: true
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: 0x01002513
+    KeyboardType: 1
+    ControllerNum: 1
+    Motion Ranges:
+      HAT_Y: source=0x01000010, min=-1.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      BRAKE: source=0x01000010, min=0.000, max=1.000, flat=0.059, fuzz=0.000, resolution=0.000
+      GAS: source=0x01000010, min=0.000, max=1.000, flat=0.059, fuzz=0.000, resolution=0.000
+      Z: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+      Y: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+      HAT_X: source=0x01000010, min=-1.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      RZ: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+      X: source=0x01000010, min=-1.000, max=1.000, flat=0.118, fuzz=0.000, resolution=0.000
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Joystick Input Mapper:
+      Axes:
+        HAT_Y: min=-1.00000, max=1.00000, flat=0.00000, fuzz=0.00000, resolution=0.00000
+          scale=1.00000, offset=-0.00000, highScale=1.00000, highOffset=-0.00000
+          rawAxis=17, rawMin=-1, rawMax=1, rawFlat=0, rawFuzz=0, rawResolution=0
+        BRAKE: min=0.00000, max=1.00000, flat=0.05882, fuzz=0.00000, resolution=0.00000
+          scale=0.00392, offset=0.00000, highScale=0.00392, highOffset=0.00000
+          rawAxis=10, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        GAS: min=0.00000, max=1.00000, flat=0.05882, fuzz=0.00000, resolution=0.00000
+          scale=0.00392, offset=0.00000, highScale=0.00392, highOffset=0.00000
+          rawAxis=9, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        Z: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=2, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        Y: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=1, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        HAT_X: min=-1.00000, max=1.00000, flat=0.00000, fuzz=0.00000, resolution=0.00000
+          scale=1.00000, offset=-0.00000, highScale=1.00000, highOffset=-0.00000
+          rawAxis=16, rawMin=-1, rawMax=1, rawFlat=0, rawFuzz=0, rawResolution=0
+        RZ: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=5, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+        X: min=-1.00000, max=1.00000, flat=0.11765, fuzz=0.00000, resolution=0.00000
+          scale=0.00784, offset=-1.00000, highScale=0.00784, highOffset=-1.00000
+          rawAxis=0, rawMin=0, rawMax=255, rawFlat=15, rawFuzz=0, rawResolution=0
+    Input Controller:
+      Lights:
+        Id: 8        Name: modalias        Type: MONO        Color: 0x0
+        Id: 7        Name: subsystem        Type: MONO        Color: 0x0
+        Id: 6        Name: driver_override        Type: MONO        Color: 0x0
+        Id: 5        Name: driver        Type: MONO        Color: 0x0
+        Id: 4        Name: leds        Type: MONO        Color: 0x0
+        Id: 3        Name: power        Type: MONO        Color: 0x0
+        Id: 2        Name: of_node        Type: MONO        Color: 0x0
+        Id: 1        Name: uevent        Type: MONO        Color: 0x0
+      RawLights:
+        Id:	 Name:	 Flags:	 Max brightness:	 Brightness
+        8        modalias        0x0        255        -1
+        7        subsystem        0x0        255        -1
+        6        driver_override        0x0        255        -1
+        5        driver        0x0        255        -1
+        4        leds        RED | GREEN        255        -1
+        3        power        0x0        255        -1
+        2        of_node        RED | GREEN        255        -1
+        1        uevent        0x0        255        -1
+  Device 2: gpio-keys
+    EventHub Devices: [ 5 2 ] 
+    Generation: 11
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: 0x00002103
+    KeyboardType: 1
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Input Controller:
+      Lights:
+        Id: 8        Name: modalias        Type: MONO        Color: 0x0
+        Id: 7        Name: subsystem        Type: MONO        Color: 0x0
+        Id: 6        Name: driver_override        Type: MONO        Color: 0x0
+        Id: 5        Name: driver        Type: MONO        Color: 0x0
+        Id: 4        Name: leds        Type: MONO        Color: 0x0
+        Id: 3        Name: power        Type: MONO        Color: 0x0
+        Id: 2        Name: of_node        Type: MONO        Color: 0x0
+        Id: 1        Name: uevent        Type: MONO        Color: 0x0
+      RawLights:
+        Id:	 Name:	 Flags:	 Max brightness:	 Brightness
+        8        modalias        0x0        255        -1
+        7        subsystem        0x0        255        -1
+        6        driver_override        0x0        255        -1
+        5        driver        0x0        255        -1
+        4        leds        RED | GREEN        255        -1
+        3        power        0x0        255        -1
+        2        of_node        RED | GREEN        255        -1
+        1        uevent        0x0        255        -1
+  Device -1: Virtual
+    EventHub Devices: [ -1 ] 
+    Generation: 3
+    IsExternal: false
+    AssociatedDisplayPort: <none>
+    AssociatedDisplayUniqueId: <none>
+    HasMic:     false
+    Sources: 0x00000301
+    KeyboardType: 2
+    ControllerNum: 0
+    Keyboard Input Mapper:
+      Parameters:
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 2
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Configuration:
+    ExcludedDeviceNames: []
+    VirtualKeyQuietTime: 0.0ms
+    PointerVelocityControlParameters: scale=1.000, lowThreshold=500.000, highThreshold=3000.000, acceleration=3.000
+    WheelVelocityControlParameters: scale=1.000, lowThreshold=15.000, highThreshold=50.000, acceleration=4.000
+    PointerGesture:
+      Enabled: true
+      QuietInterval: 100.0ms
+      DragMinSwitchSpeed: 50.0px/s
+      TapInterval: 150.0ms
+      TapDragInterval: 300.0ms
+      TapSlop: 20.0px
+      MultitouchSettleInterval: 100.0ms
+      MultitouchMinDistance: 15.0px
+      SwipeTransitionAngleCosine: 0.3
+      SwipeMaxWidthRatio: 0.2
+      MovementSpeedRatio: 0.8
+      ZoomSpeedRatio: 0.3
+      Viewports:
+        Viewport INTERNAL: displayId=0, uniqueId=local:0, port=0, orientation=0, logicalFrame=[0, 0, 1280, 720], physicalFrame=[0, 0, 1280, 720], deviceSize=[1280, 720], isActive=[1]
+
+Input Classifier State:
+  Motion Classifier:
+    <nullptr>
+
+Input Dispatcher State:
+  DispatchEnabled: true
+  DispatchFrozen: false
+  InputFilterEnabled: false
+  FocusedDisplayId: 0
+  FocusedApplications:
+    displayId=0, name='ActivityRecord{e6485c6 u0 com.android.tv.set/.MainSettings t114}', dispatchingTimeout=5000ms
+  FocusedWindows:
+    displayId=0, name='133852 com.android.tv.set/com.android.tv.set.MainSettings'
+  FocusRequests:
+    displayId=0, name='133852 com.android.tv.set/com.android.tv.set.MainSettings' result='OK'
+  Pointer Capture Requested: false
+  Current Window with Pointer Capture: None
+  TouchStates: <no displays touched>
+  Display: 0
+    Windows:
+      0: name='133852 com.android.tv.set/com.android.tv.set.MainSettings', id=82, displayId=0, portalToDisplayId=-1, paused=false, focusable=true, hasWallpaper=false, visible=true, alpha=1.00, flags=DIM_BEHIND | NOT_TOUCH_MODAL | LAYOUT_IN_SCREEN | LAYOUT_INSET_DECOR | SPLIT_TOUCH | HARDWARE_ACCELERATED | DRAWS_SYSTEM_BAR_BACKGROUNDS, type=FIRST_APPLICATION_WINDOW, frame=[0,0][1280,720], globalScale=1.000000, applicationInfo.name=ActivityRecord{e6485c6 u0 com.android.tv.set/.MainSettings t114}, applicationInfo.token=[REDACTED_SECRET] touchableRegion=[0,0][1280,720], inputFeatures=0x0, ownerPid=693, ownerUid=1000, dispatchingTimeout=5000ms, trustedOverlay=true, hasToken=true, touchOcclusionMode=BLOCK_UNTRUSTED, displayOrientation=0
+        transform (ROT_0) (IDENTITY)
+      1: name='5996dcb com.android.tv.settings/com.shzhtxcz.txbox.activity.SystemSettingAppActivity', id=74, displayId=0, portalToDisplayId=-1, paused=false, focusable=true, hasWallpaper=false, visible=true, alpha=1.00, flags=NOT_TOUCH_MODAL | LAYOUT_IN_SCREEN | LAYOUT_INSET_DECOR | SPLIT_TOUCH | HARDWARE_ACCELERATED | DRAWS_SYSTEM_BAR_BACKGROUNDS, type=FIRST_APPLICATION_WINDOW, frame=[0,0][1280,720], globalScale=1.000000, applicationInfo.name=ActivityRecord{c738dbc u0 com.android.tv.settings/com.shzhtxcz.txbox.activity.SystemSettingAppActivity t114}, applicationInfo.token=[REDACTED_SECRET] touchableRegion=[0,0][1280,720], inputFeatures=0x0, ownerPid=2387, ownerUid=1000, dispatchingTimeout=5000ms, trustedOverlay=true, hasToken=true, touchOcclusionMode=BLOCK_UNTRUSTED, displayOrientation=0
+        transform (ROT_0) (IDENTITY)
+  Global monitors in display 0:
+    0: 'PointerEventDispatcher0 (server)', 
+  RecentQueue: length=10
+    KeyEvent(deviceId=3, eventTime=254528622000, source=0x00000301, displayId=-1, action=DOWN, flags=0x00000008, keyCode=20, scanCode=108, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=668993ms
+    KeyEvent(deviceId=3, eventTime=254616720000, source=0x00000301, displayId=-1, action=UP, flags=0x00000008, keyCode=20, scanCode=108, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=668905ms
+    KeyEvent(deviceId=3, eventTime=255551056000, source=0x00000301, displayId=-1, action=DOWN, flags=0x00000008, keyCode=23, scanCode=232, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=667970ms
+    KeyEvent(deviceId=3, eventTime=255723438000, source=0x00000301, displayId=-1, action=UP, flags=0x00000008, keyCode=23, scanCode=232, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=667798ms
+    KeyEvent(deviceId=3, eventTime=256989206000, source=0x00000301, displayId=-1, action=DOWN, flags=0x00000008, keyCode=23, scanCode=232, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=666532ms
+    KeyEvent(deviceId=3, eventTime=257076770000, source=0x00000301, displayId=-1, action=UP, flags=0x00000008, keyCode=23, scanCode=232, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=666445ms
+    KeyEvent(deviceId=3, eventTime=258432587000, source=0x00000301, displayId=-1, action=DOWN, flags=0x00000008, keyCode=20, scanCode=108, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=665089ms
+    KeyEvent(deviceId=3, eventTime=258520120000, source=0x00000301, displayId=-1, action=UP, flags=0x00000008, keyCode=20, scanCode=108, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=665001ms
+    KeyEvent(deviceId=3, eventTime=259167596000, source=0x00000301, displayId=-1, action=DOWN, flags=0x00000008, keyCode=23, scanCode=232, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=664354ms
+    KeyEvent(deviceId=3, eventTime=259340077000, source=0x00000301, displayId=-1, action=UP, flags=0x00000008, keyCode=23, scanCode=232, metaState=0x00000000, repeatCount=0), policyFlags=0x62000000, age=664181ms
+  PendingEvent: <none>
+  InboundQueue: <empty>
+  ReplacedKeys: <empty>
+  Connections:
+    417: channelName='5996dcb com.android.tv.settings/com.shzhtxcz.txbox.activity.SystemSettingAppActivity (server)', windowName='5996dcb com.android.tv.settings/com.shzhtxcz.txbox.activity.SystemSettingAppActivity (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    420: channelName='7cab77e com.android.tv.settings/com.shzhtxcz.txbox.MainActivity (server)', windowName='7cab77e com.android.tv.settings/com.shzhtxcz.txbox.MainActivity (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    356: channelName='9af2d61 com.spocky.projengmenu/com.spocky.projengmenu.ui.home.MainActivity (server)', windowName='9af2d61 com.spocky.projengmenu/com.spocky.projengmenu.ui.home.MainActivity (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    322: channelName='6555147 ShellDropTarget (server)', windowName='6555147 ShellDropTarget (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    373: channelName='d03357e InputMethod (server)', windowName='d03357e InputMethod (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    283: channelName='133852 com.android.tv.set/com.android.tv.set.MainSettings (server)', windowName='133852 com.android.tv.set/com.android.tv.set.MainSettings (server)', status=NORMAL, monitor=false, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    162: channelName='PointerEventDispatcher0 (server)', windowName='PointerEventDispatcher0 (server)', status=NORMAL, monitor=true, responsive=true
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+  AppSwitch: not pending
+  Configuration:
+    KeyRepeatDelay: 50ms
+    KeyRepeatTimeout: 400ms
+    LatencyTracker:
+      mTimelines.size() = 0
+      mEventTimes.size() = 0
+    LatencyAggregator:
+      Sketches:
+        mDownSketches[0]->num_values = 0 size = 0.0KB mMoveSketches[0]->num_values = 0 size = 0.0KB
+        mDownSketches[1]->num_values = 0 size = 0.0KB mMoveSketches[1]->num_values = 0 size = 0.0KB
+        mDownSketches[2]->num_values = 0 size = 0.0KB mMoveSketches[2]->num_values = 0 size = 0.0KB
+        mDownSketches[3]->num_values = 0 size = 0.0KB mMoveSketches[3]->num_values = 0 size = 0.0KB
+        mDownSketches[4]->num_values = 0 size = 0.0KB mMoveSketches[4]->num_values = 0 size = 0.0KB
+        mDownSketches[5]->num_values = 0 size = 0.0KB mMoveSketches[5]->num_values = 0 size = 0.0KB
+        mDownSketches[6]->num_values = 0 size = 0.0KB mMoveSketches[6]->num_values = 0 size = 0.0KB
+      mNumSketchEventsProcessed=0
+      mLastSlowEventTime=0
+      mNumEventsSinceLastSlowEventReport = 0
+      mNumSkippedSlowEvents = 0
+
+

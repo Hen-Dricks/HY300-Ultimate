@@ -1,0 +1,4 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c grep -Rni "daemon12138" /system/etc/init /vendor/etc/init /odm/etc/init /product/etc/init /system_ext/etc/init 2>/dev/null || true
+# Collected UTC: 2026-07-15T09:53:29Z
+# Timeout: 90s
+

@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c for f in /system/build.prop /vendor/build.prop /product/build.prop /odm/build.prop /system_ext/build.prop; do [ -r "$f" ] && { echo "===== $f ====="; cat "$f"; }; done
+# Collected UTC: 2026-07-15T09:52:21Z
+# Timeout: 90s
+
+/system/bin/sh: syntax error: unexpected 'do'

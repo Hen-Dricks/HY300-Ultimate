@@ -1,0 +1,16 @@
+# Command: adb -s [REDACTED_IP]:3268 shell dumpsys thermalservice
+# Collected UTC: 2026-07-15T09:53:33Z
+# Timeout: 90s
+
+IsStatusOverride: false
+ThermalEventListeners:
+	callbacks: 2
+	killed: false
+	broadcasts count: -1
+ThermalStatusListeners:
+	callbacks: 3
+	killed: false
+	broadcasts count: -1
+Thermal Status: 0
+Cached temperatures:
+HAL Ready: false

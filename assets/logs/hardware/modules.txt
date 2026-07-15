@@ -1,0 +1,7 @@
+# Command: adb -s [REDACTED_IP]:3268 shell cat /proc/modules
+# Collected UTC: 2026-07-15T09:52:21Z
+# Timeout: 90s
+
+skw6316 475136 0 - Live 0x0000000000000000
+skw_sdio_lite 131072 8 - Live 0x0000000000000000
+aic8800_bsp 90112 0 - Live 0x0000000000000000

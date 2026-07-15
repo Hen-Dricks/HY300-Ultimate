@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: M6PIz6XK0Jun9j8ipfl8piSETjyqmzsNF00nBcBFBu4=
+
+Name: lib/arm64-v8a/libshim_jni.so
+SHA-256-Digest: sRfS0rVuH8yus9zUiSMf/r9tw6ZspwHgw3y6tJ4BmeU=
+
+Name: lib/armeabi-v7a/libshim_jni.so
+SHA-256-Digest: XDek5NiKQsQTxOIKCBvZLQvA1w0YG/tz6bdOs1U8kMY=
+
+Name: resources.arsc
+SHA-256-Digest: 22gFCBG1f3e/xeouqlZhOx9g1UfB/fCqdZ/iIev11cI=
+

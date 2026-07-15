@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="828" viewBox="0 0 1200 828">
+<defs><filter id="s"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity=".14"/></filter></defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="600.0" y="58" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">Projector Graphics Pipeline</text>
+<rect x="130" y="110" width="940" height="92" rx="18" fill="#e0e7ff" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="148" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Applications</text>
+<text x="600" y="180" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Launcher, media apps and external display sources</text>
+<rect x="130" y="218" width="940" height="92" rx="18" fill="#dbeafe" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="256" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">SurfaceFlinger</text>
+<text x="600" y="288" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Collects and composes graphic buffers</text>
+<rect x="130" y="326" width="940" height="92" rx="18" fill="#dcfce7" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="364" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Hardware Composer</text>
+<text x="600" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Delegates composition to hardware</text>
+<rect x="130" y="434" width="940" height="92" rx="18" fill="#fef3c7" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="472" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Rockchip Graphics Stack</text>
+<text x="600" y="504" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">librkgfx and vendor acceleration</text>
+<rect x="130" y="542" width="940" height="92" rx="18" fill="#fee2e2" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="580" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Display Controller</text>
+<text x="600" y="612" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Timing, scaling and output</text>
+<rect x="130" y="650" width="940" height="92" rx="18" fill="#f3e8ff" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="688" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Projection Engine</text>
+<text x="600" y="720" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Optical projection</text>
+</svg>

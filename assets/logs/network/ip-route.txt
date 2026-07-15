@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell ip route
+# Collected UTC: 2026-07-15T09:53:34Z
+# Timeout: 90s
+
+[REDACTED_IP]/24 dev wlan0 proto kernel scope link src [REDACTED_IP] 

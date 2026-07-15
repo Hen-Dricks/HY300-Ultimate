@@ -1,0 +1,291 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c ss -tunap 2>/dev/null || netstat -tunap 2>/dev/null || true
+# Collected UTC: 2026-07-15T09:53:34Z
+# Timeout: 90s
+
+Netid  State      Recv-Q Send-Q Local Address:Port                 Peer Address:Port                
+u_str  ESTAB      0      0      /dev/socket/mdns 19140                 * 0                    
+u_str  ESTAB      0      0       * 19441                 * 0                    
+u_str  ESTAB      0      0       * 19442                 * 0                    
+u_str  ESTAB      0      0       * 19557                 * 0                    
+u_str  ESTAB      0      0       * 19558                 * 0                    
+u_str  ESTAB      0      0      /dev/socket/zygote 20217                 * 0                    
+u_str  ESTAB      0      0       * 20228                 * 0                    
+u_str  ESTAB      0      0       * 20303                 * 0                    
+u_str  ESTAB      0      0      @com.android.internal.os.WebViewZygoteInit/204d5d5d-5491-4212-b092-5e60d45b270a 20304                 * 0                    
+u_str  ESTAB      0      0       * 20452                 * 0                    
+u_str  ESTAB      0      0       * 20453                 * 0                    
+u_str  ESTAB      0      0       * 21194                 * 0                    
+u_str  ESTAB      0      0       * 21752                 * 0                    
+u_str  ESTAB      0      0       * 21753                 * 0                    
+u_str  ESTAB      0      0       * 21932                 * 0                    
+u_str  ESTAB      0      0       * 21933                 * 0                    
+u_str  ESTAB      0      0       * 21934                 * 0                    
+u_str  ESTAB      0      0       * 21935                 * 0                    
+u_str  ESTAB      0      0       * 21936                 * 0                    
+u_str  ESTAB      0      0       * 21937                 * 0                    
+u_str  ESTAB      0      0       * 21938                 * 0                    
+u_str  ESTAB      0      0       * 21939                 * 0                    
+u_str  ESTAB      0      0       * 21940                 * 0                    
+u_str  ESTAB      0      0       * 21941                 * 0                    
+u_str  ESTAB      0      0       * 21942                 * 0                    
+u_str  ESTAB      0      0       * 21943                 * 0                    
+u_str  ESTAB      0      0       * 22444                 * 0                    
+u_str  ESTAB      0      0       * 22445                 * 0                    
+u_str  ESTAB      0      0       * 22447                 * 0                    
+u_str  ESTAB      0      0       * 22448                 * 0                    
+u_str  ESTAB      0      0       * 46943                 * 0                    
+u_str  ESTAB      0      0       * 46944                 * 0                    
+u_str  ESTAB      0      0      /dev/socket/mdnsd 48001                 * 0                    
+u_str  ESTAB      0      0       * 50501                 * 0                    
+u_str  ESTAB      0      0       * 51270                 * 0                    
+u_str  ESTAB      0      0       * 51271                 * 0                    
+u_str  ESTAB      0      0       * 362761                * 0                    
+u_str  ESTAB      0      0       * 362762                * 0                    
+u_str  ESTAB      0      0       * 362763                * 0                    
+u_str  ESTAB      0      0       * 362764                * 0                    
+u_str  ESTAB      0      0       * 362767                * 0                    
+u_str  ESTAB      0      0       * 362768                * 0                    
+u_seq  ESTAB      0      0       * 3544                  * 0                    
+u_seq  ESTAB      0      0       * 3545                  * 0                    
+u_seq  ESTAB      0      0       * 3584                  * 0                    
+u_seq  ESTAB      0      0       * 3585                  * 0                    
+u_seq  ESTAB      0      0       * 4075                  * 0                    
+u_seq  ESTAB      0      0       * 4076                  * 0                    
+u_seq  ESTAB      0      0       * 4081                  * 0                    
+u_seq  ESTAB      0      0       * 4082                  * 0                    
+u_seq  ESTAB      0      0      /dev/socket/lmkd 19120                 * 0                    
+u_seq  ESTAB      0      0       * 19129                 * 0                    
+u_seq  ESTAB      0      0       * 19133                 * 0                    
+u_seq  ESTAB      0      0       * 19134                 * 0                    
+u_seq  ESTAB      0      0       * 19192                 * 0                    
+u_seq  ESTAB      0      0       * 19193                 * 0                    
+u_seq  ESTAB      0      0       * 19271                 * 0                    
+u_seq  ESTAB      0      0       * 19272                 * 0                    
+u_seq  ESTAB      0      0       * 19274                 * 0                    
+u_seq  ESTAB      0      0       * 19275                 * 0                    
+u_seq  ESTAB      0      0       * 19276                 * 0                    
+u_seq  ESTAB      0      0       * 19277                 * 0                    
+u_seq  ESTAB      0      0       * 19278                 * 0                    
+u_seq  ESTAB      0      0       * 19279                 * 0                    
+u_seq  ESTAB      0      0       * 20349                 * 0                    
+u_seq  ESTAB      0      0       * 20350                 * 0                    
+u_seq  ESTAB      0      0       * 20708                 * 0                    
+u_seq  ESTAB      0      0       * 20709                 * 0                    
+u_seq  ESTAB      0      0       * 21119                 * 0                    
+u_seq  ESTAB      0      0       * 21120                 * 0                    
+u_seq  ESTAB      0      0       * 21208                 * 0                    
+u_seq  ESTAB      0      0       * 21209                 * 0                    
+u_seq  ESTAB      0      0       * 21210                 * 0                    
+u_seq  ESTAB      0      0       * 21211                 * 0                    
+u_seq  ESTAB      0      0       * 21212                 * 0                    
+u_seq  ESTAB      0      0       * 21213                 * 0                    
+u_seq  ESTAB      0      0       * 21355                 * 0                    
+u_seq  ESTAB      0      0       * 21356                 * 0                    
+u_seq  ESTAB      0      0       * 21734                 * 0                    
+u_seq  ESTAB      0      0       * 21743                 * 0                    
+u_seq  ESTAB      0      0       * 21767                 * 0                    
+u_seq  ESTAB      0      0       * 21768                 * 0                    
+u_seq  ESTAB      0      0       * 21772                 * 0                    
+u_seq  ESTAB      0      0       * 21773                 * 0                    
+u_seq  ESTAB      0      0       * 21813                 * 0                    
+u_seq  ESTAB      0      0       * 21814                 * 0                    
+u_seq  ESTAB      0      0       * 21840                 * 0                    
+u_seq  ESTAB      0      0       * 21841                 * 0                    
+u_seq  ESTAB      0      0       * 21860                 * 0                    
+u_seq  ESTAB      0      0       * 21861                 * 0                    
+u_seq  ESTAB      0      0       * 22017                 * 0                    
+u_seq  ESTAB      0      0       * 22018                 * 0                    
+u_seq  ESTAB      0      0       * 22040                 * 0                    
+u_seq  ESTAB      0      0       * 22041                 * 0                    
+u_seq  ESTAB      0      0       * 22277                 * 0                    
+u_seq  ESTAB      0      0       * 22278                 * 0                    
+u_seq  ESTAB      0      0       * 22422                 * 0                    
+u_seq  ESTAB      0      0       * 22423                 * 0                    
+u_seq  ESTAB      0      0       * 30363                 * 0                    
+u_seq  ESTAB      0      0       * 30364                 * 0                    
+u_seq  ESTAB      0      0       * 30396                 * 0                    
+u_seq  ESTAB      0      0       * 30397                 * 0                    
+u_seq  ESTAB      0      0       * 30425                 * 0                    
+u_seq  ESTAB      0      0       * 30426                 * 0                    
+u_seq  ESTAB      0      0       * 30649                 * 0                    
+u_seq  ESTAB      0      0       * 30650                 * 0                    
+u_seq  ESTAB      0      0       * 30907                 * 0                    
+u_seq  ESTAB      0      0       * 30908                 * 0                    
+u_seq  ESTAB      0      0       * 30945                 * 0                    
+u_seq  ESTAB      0      0       * 30946                 * 0                    
+u_seq  ESTAB      0      0       * 31039                 * 0                    
+u_seq  ESTAB      0      0       * 31040                 * 0                    
+u_seq  ESTAB      0      0       * 31041                 * 0                    
+u_seq  ESTAB      0      0       * 31042                 * 0                    
+u_seq  ESTAB      0      0       * 32006                 * 0                    
+u_seq  ESTAB      0      0       * 32007                 * 0                    
+u_seq  ESTAB      0      0       * 32151                 * 0                    
+u_seq  ESTAB      0      0       * 32152                 * 0                    
+u_seq  ESTAB      0      0       * 33113                 * 0                    
+u_seq  ESTAB      0      0       * 33114                 * 0                    
+u_seq  ESTAB      0      0       * 33261                 * 0                    
+u_seq  ESTAB      0      0       * 33262                 * 0                    
+u_seq  ESTAB      0      0       * 34194                 * 0                    
+u_seq  ESTAB      0      0       * 34195                 * 0                    
+u_seq  ESTAB      0      0       * 34906                 * 0                    
+u_seq  ESTAB      0      0       * 34907                 * 0                    
+u_seq  ESTAB      0      0       * 34911                 * 0                    
+u_seq  ESTAB      0      0       * 34912                 * 0                    
+u_seq  ESTAB      0      0       * 37645                 * 0                    
+u_seq  ESTAB      0      0       * 37646                 * 0                    
+u_seq  ESTAB      0      0       * 37658                 * 0                    
+u_seq  ESTAB      0      0       * 37659                 * 0                    
+u_seq  ESTAB      0      0       * 37928                 * 0                    
+u_seq  ESTAB      0      0       * 37929                 * 0                    
+u_seq  ESTAB      0      0       * 39788                 * 0                    
+u_seq  ESTAB      0      0       * 39789                 * 0                    
+u_seq  ESTAB      0      0       * 39825                 * 0                    
+u_seq  ESTAB      0      0       * 39826                 * 0                    
+u_seq  ESTAB      0      0       * 39852                 * 0                    
+u_seq  ESTAB      0      0       * 39853                 * 0                    
+u_seq  ESTAB      0      0       * 41013                 * 0                    
+u_seq  ESTAB      0      0       * 41014                 * 0                    
+u_seq  ESTAB      0      0       * 41458                 * 0                    
+u_seq  ESTAB      0      0       * 41459                 * 0                    
+u_seq  ESTAB      0      0       * 42158                 * 0                    
+u_seq  ESTAB      0      0       * 42159                 * 0                    
+u_seq  ESTAB      0      0       * 43028                 * 0                    
+u_seq  ESTAB      0      0       * 43029                 * 0                    
+u_seq  ESTAB      0      0       * 43163                 * 0                    
+u_seq  ESTAB      0      0       * 43164                 * 0                    
+u_seq  ESTAB      0      0       * 44055                 * 0                    
+u_seq  ESTAB      0      0       * 44056                 * 0                    
+u_seq  ESTAB      0      0       * 44190                 * 0                    
+u_seq  ESTAB      0      0       * 44191                 * 0                    
+u_seq  ESTAB      0      0       * 48028                 * 0                    
+u_seq  ESTAB      0      0       * 48029                 * 0                    
+u_seq  ESTAB      0      0       * 48030                 * 0                    
+u_seq  ESTAB      0      0       * 48031                 * 0                    
+u_seq  ESTAB      0      0       * 48032                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48033                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48034                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48035                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48036                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48037                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48038                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48039                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48040                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48041                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48042                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48043                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48044                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48045                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48046                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48047                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48048                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48050                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48051                 * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 48055                 * 0                    
+u_seq  ESTAB      0      0       * 48057                 * 0                    
+u_seq  ESTAB      0      0       * 49837                 * 0                    
+u_seq  ESTAB      0      0       * 49838                 * 0                    
+u_seq  ESTAB      0      0       * 49839                 * 0                    
+u_seq  ESTAB      0      0       * 49844                 * 0                    
+u_seq  ESTAB      0      0      /dev/socket/adbd 49847                 * 0                    
+u_seq  ESTAB      0      0       * 50516                 * 0                    
+u_seq  ESTAB      0      0       * 50517                 * 0                    
+u_seq  ESTAB      0      0       * 50518                 * 0                    
+u_seq  ESTAB      0      0       * 50519                 * 0                    
+u_seq  ESTAB      0      0       * 50520                 * 0                    
+u_seq  ESTAB      0      0       * 50521                 * 0                    
+u_seq  ESTAB      0      0       * 51684                 * 0                    
+u_seq  ESTAB      0      0       * 51685                 * 0                    
+u_seq  ESTAB      0      0       * 51687                 * 0                    
+u_seq  ESTAB      0      0       * 51689                 * 0                    
+u_seq  ESTAB      0      0       * 217014                * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 217714                * 0                    
+u_seq  ESTAB      0      0       * 217720                * 0                    
+u_seq  ESTAB      0      0       * 218451                * 0                    
+u_seq  ESTAB      0      0       * 218452                * 0                    
+u_seq  ESTAB      0      0       * 218459                * 0                    
+u_seq  ESTAB      0      0       * 218460                * 0                    
+u_seq  ESTAB      0      0      @jdwp-control 219251                * 0                    
+udp    ESTAB      0      0      [REDACTED_IP]:44998                172.217.22.174:https                
+udp    ESTAB      0      0      [REDACTED_IP]:57873                192.178.169.94:https                
+udp    ESTAB      960    0      [REDACTED_IP]%wlan0:bootpc               [REDACTED_IP]:bootps               
+udp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:52774                [::ffff:223.6.6.6]:domain               
+udp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:35367                  [::ffff:8.8.8.8]:domain               
+udp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:52265                  [::ffff:1.1.1.1]:domain               
+udp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:42234                [::ffff:223.6.6.6]:domain               
+udp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:41240                  [::ffff:1.1.1.1]:domain               
+udp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:50510                  [::ffff:8.8.8.8]:domain               
+tcp    ESTAB      0      0      [REDACTED_IP]:49278                185.162.130.221:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP].1:52972                [REDACTED_IP].1:33707                
+tcp    ESTAB      0      0      [REDACTED_IP]:53498                43.117.42.180:netbios-ssn          
+tcp    CLOSE-WAIT 8      0      [REDACTED_IP]:33508                57.144.39.32:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:45596                46.4.116.81:769                  
+tcp    ESTAB      0      0      [REDACTED_IP]:47006                172.217.117.4:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:33648                57.144.39.32:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:35312                43.173.76.134:187                  
+tcp    ESTAB      0      0      [REDACTED_IP]:45800                79.[REDACTED_IP]:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:38912                162.244.34.42:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:60062                162.244.34.17:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:46946                101.47.38.105:uucp-path            
+tcp    ESTAB      0      0      [REDACTED_IP]:51242                43.102.3.217:acr-nema             
+tcp    SYN-SENT   0      1      [REDACTED_IP]:34898                46.34.22.48:8443                 
+tcp    CLOSE-WAIT 1      0      [REDACTED_IP]:60192                146.75.53.21:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:54866                107.151.249.68:702                  
+tcp    ESTAB      0      0      [REDACTED_IP]:38088                152.233.46.133:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:38904                162.244.34.16:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:43146                43.117.205.213:165                  
+tcp    ESTAB      0      0      [REDACTED_IP]:55796                149.51.43.70:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:50034                185.162.130.8:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:37116                192.178.169.94:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:45222                43.134.191.118:sunrpc               
+tcp    LAST-ACK   0      1      [REDACTED_IP]:42860                43.116.96.105:240                  
+tcp    CLOSE-WAIT 8      0      [REDACTED_IP]:33516                57.144.39.32:https                
+tcp    FIN-WAIT-2 0      0      [REDACTED_IP]:39084                172.67.196.155:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:55116                107.151.249.68:701                  
+tcp    ESTAB      0      0      [REDACTED_IP]:40426                43.116.96.105:nntp                 
+tcp    ESTAB      0      0      [REDACTED_IP]:38646                185.162.130.28:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:48648                38.46.222.130:1884                 
+tcp    ESTAB      0      0      [REDACTED_IP]:57996                162.244.34.43:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:38542                101.47.170.21:smux                 
+tcp    ESTAB      0      0      [REDACTED_IP]:59564                43.102.227.216:166                  
+tcp    ESTAB      0      0      [REDACTED_IP]:43434                95.173.204.44:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:35684                43.116.45.7:167                  
+tcp    ESTAB      0      0      [REDACTED_IP]:38572                185.162.128.94:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:48538                162.244.34.11:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:36656                43.135.154.76:198                  
+tcp    ESTAB      0      0      [REDACTED_IP]:45736                178.249.213.82:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:45678                47.82.41.4:175                  
+tcp    ESTAB      0      0      [REDACTED_IP]:41848                185.162.130.27:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:59670                116.203.183.162:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:35688                43.116.71.156:netbios-ns           
+tcp    ESTAB      0      0      [REDACTED_IP]:46714                165.232.149.30:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:42958                43.116.96.105:240                  
+tcp    ESTAB      0      0      [REDACTED_IP]:41016                185.162.130.21:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:54534                43.117.64.47:125                  
+tcp    FIN-WAIT-2 0      0      [REDACTED_IP]:42920                43.116.96.105:240                  
+tcp    ESTAB      0      0      [REDACTED_IP]:55128                107.151.249.68:701                  
+tcp    ESTAB      0      0      [REDACTED_IP]:54332                185.162.128.91:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:33656                57.144.39.32:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:39994                89.222.107.247:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:39676                89.222.107.166:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:48050                162.244.34.4:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:47162                43.116.104.202:171                  
+tcp    ESTAB      0      0      [REDACTED_IP]:47406                185.223.94.98:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:46446                162.244.35.148:8887                 
+tcp    ESTAB      0      0      [REDACTED_IP]:42286                108.139.200.94:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:52022                43.117.69.114:172                  
+tcp    ESTAB      0      0      [REDACTED_IP]:35022                194.49.53.119:https                
+tcp    ESTAB      0      0      [REDACTED_IP]:42638                43.134.191.118:258                  
+tcp    ESTAB      0      0      [REDACTED_IP]:40256                165.154.202.61:132                  
+tcp    ESTAB      0      0      [REDACTED_IP]:48054                185.162.130.26:8886                 
+tcp    ESTAB      0      0      [REDACTED_IP]:57040                43.102.26.185:114                  
+tcp    ESTAB      0      0      [REDACTED_IP]:40070                43.117.76.132:151                  
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:51268                   [::ffff:165.154.135.52]:58000                
+tcp    ESTAB      0      0      [::ffff:[REDACTED_IP].1]:33707                [::ffff:[REDACTED_IP].1]:52972                
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:58502                   [::ffff:142.251.142.67]:https                
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:57568                [::ffff:172.217.115.4]:https                
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:58282                   [::ffff:128.14.146.245]:9000                 
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:3268                   [::ffff:[REDACTED_IP]]:59065                
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:38680                   [::ffff:104.16.248.249]:https                
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:59404                   [::ffff:216.239.34.223]:https                
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:51524                  [::ffff:57.144.38.1]:https                
+tcp    ESTAB      0      0       [::ffff:[REDACTED_IP]]:48282                  [::ffff:192.178.223.188]:5228                 

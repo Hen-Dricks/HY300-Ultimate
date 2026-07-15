@@ -1,0 +1,16 @@
+# Command: adb -s [REDACTED_IP]:3268 shell pm list packages -3 -f
+# Collected UTC: 2026-07-15T09:52:25Z
+# Timeout: 90s
+
+package:/data/app/~~MNY1hJ_4AVgFBkuwvHvlRw==/com.cybercat.adbappcontrol.tv-AZtdtQTG7tW3udkJKDNK5A==/base.apk=com.cybercat.adbappcontrol.tv
+package:/data/app/~~f0TLXsqw6gbChu5I0t4KDw==/com.spocky.projengmenu-Br8tD5icDYj_kZp5WIM3ug==/base.apk=com.spocky.projengmenu
+package:/data/app/~~i5KMsyHsJwpJJ84clFw3-Q==/com.lonelycatgames.Xplore-8KvojVmB2CnXQ4j-TULsOQ==/base.apk=com.lonelycatgames.Xplore
+package:/data/app/~~E5LVEbTMCuO-KkIIkNXWiw==/com.roysolberg.android.developertools-xUdSy1VOAlODwx9Gsawo4A==/base.apk=com.roysolberg.android.developertools
+package:/data/app/~~ZevYzwsUXp6kooEnkiyvPQ==/com.amazon.amazonvideo.livingroom-6DBVtyPxQcqSH0jHTiegNQ==/base.apk=com.amazon.amazonvideo.livingroom
+package:/data/app/~~GvjndMskgezqsWbedN-B3g==/org.xbmc.kodi-Bhp8m8X6dEmx52mZxaQ1mQ==/base.apk=org.xbmc.kodi
+package:/odm/bundled_uninstall_back-app/netflix/netflix.apk=com.netflix.mediaclient
+package:/data/app/~~Qo2ysQEiLnBN6Cv4DUiiaw==/com.surfshark.vpnclient.android-K2igGyZq1A-M0qzbCIskNQ==/base.apk=com.surfshark.vpnclient.android
+package:/data/app/~~qqF-jhBchvtM_wF45JtqLA==/com.google.android.youtube.tv-xnce5yqTIL6rIWGBHUjfPg==/base.apk=com.google.android.youtube.tv
+package:/data/app/~~YKu8OYyrv4x5G2utdjRSRQ==/by4a.setedit22-ysjvE8BOX8S1dVD8sladNg==/base.apk=by4a.setedit22
+package:/odm/bundled_uninstall_back-app/TX_emualtor/TX_emualtor.apk=com.xugame.gameconsole
+package:/data/app/~~cVOm9sHiQ9mZZzpYzGeOEA==/com.rockchip.itvbox-ENZT73_i1qpvJpyBijhLFg==/base.apk=com.rockchip.itvbox

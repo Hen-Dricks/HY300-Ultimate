@@ -1,0 +1,243 @@
+Activity Resolver Table:
+  Schemes:
+      flubber:
+        c857fbb com.android.cts.priv.ctsshim/.UpgradeSchemeSubset filter 7648cd8
+          Action: "com.android.cts.action.SCHEME_SUB"
+          Scheme: "content"
+          Scheme: "flubber"
+          Scheme: "zoodle"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      zoodle:
+        c857fbb com.android.cts.priv.ctsshim/.UpgradeSchemeSubset filter 7648cd8
+          Action: "com.android.cts.action.SCHEME_SUB"
+          Scheme: "content"
+          Scheme: "flubber"
+          Scheme: "zoodle"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      http:
+        804f8f2 com.android.cts.priv.ctsshim/.UpgradeMatchMultiple filter 8cbc5c0
+          Action: "com.android.cts.action.MATCH_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.google.com": 80
+          Authority: "www.google.com": 8080
+          Authority: "goo.gl": 443
+          mPriority=150, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      https:
+        804f8f2 com.android.cts.priv.ctsshim/.UpgradeMatchMultiple filter 8cbc5c0
+          Action: "com.android.cts.action.MATCH_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.google.com": 80
+          Authority: "www.google.com": 8080
+          Authority: "goo.gl": 443
+          mPriority=150, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      content:
+        c857fbb com.android.cts.priv.ctsshim/.UpgradeSchemeSubset filter 7648cd8
+          Action: "com.android.cts.action.SCHEME_SUB"
+          Scheme: "content"
+          Scheme: "flubber"
+          Scheme: "zoodle"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        e062b33 com.android.cts.priv.ctsshim/.UpgradeNewScheme filter 63c1ef0
+          Action: "com.android.cts.action.NEW_SCHEME"
+          Scheme: "content"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      com.android.cts.action.ACTION_SUB:
+        30ff89f com.android.cts.priv.ctsshim/.UpgradeActionSubset filter 5877dec
+          Action: "com.android.cts.action.ACTION_SUB"
+          Action: "com.android.cts.action.ACTION_SUB_2"
+          Action: "com.android.cts.action.ACTION_SUB_3"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.SEND:
+        640f09a com.android.cts.priv.ctsshim/.InstallPriority filter ed15cc1
+          Action: "android.intent.action.SEND"
+      android.intent.action.VIEW:
+        640f09a com.android.cts.priv.ctsshim/.InstallPriority filter aaf69a8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+      com.android.cts.action.NEW_ACTION:
+        e025c97 com.android.cts.priv.ctsshim/.UpgradeNewAction filter 3019e84
+          Action: "com.android.cts.action.NEW_ACTION"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.CATEGORY_SUB:
+        396b5b5 com.android.cts.priv.ctsshim/.UpgradeCategorySubset filter 186b44a
+          Action: "com.android.cts.action.CATEGORY_SUB"
+          Category: "android.intent.category.INFO"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.MATCH_MULTIPLE:
+        804f8f2 com.android.cts.priv.ctsshim/.UpgradeMatchMultiple filter b23eb43
+          Action: "com.android.cts.action.MATCH_MULTIPLE"
+          Category: "android.intent.category.INFO"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.NEW_CATEGORY:
+        414e66d com.android.cts.priv.ctsshim/.UpgradeNewCategory filter 6982a2
+          Action: "com.android.cts.action.NEW_CATEGORY"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.SEND_MULTIPLE:
+        640f09a com.android.cts.priv.ctsshim/.InstallPriority filter 7ad7c66
+          Action: "android.intent.action.SEND_MULTIPLE"
+      com.android.cts.action.NEW_AUTHORITY:
+        6a67c69 com.android.cts.priv.ctsshim/.UpgradeNewAuthority filter 10126ee
+          Action: "com.android.cts.action.NEW_AUTHORITY"
+          Authority: "www.google.com": 80
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.AUTHORITY_SUB:
+        fc9f831 com.android.cts.priv.ctsshim/.UpgradeAuthoritySubset filter 983cb16
+          Action: "com.android.cts.action.AUTHORITY_SUB"
+          Authority: "www.google.com": 80
+          Authority: "www.google.com": 8080
+          Authority: "mail.google.com": 80
+          Authority: "goo.gl": 443
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.ACTION_SUB_2:
+        30ff89f com.android.cts.priv.ctsshim/.UpgradeActionSubset filter 5877dec
+          Action: "com.android.cts.action.ACTION_SUB"
+          Action: "com.android.cts.action.ACTION_SUB_2"
+          Action: "com.android.cts.action.ACTION_SUB_3"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.ACTION_SUB_3:
+        30ff89f com.android.cts.priv.ctsshim/.UpgradeActionSubset filter 5877dec
+          Action: "com.android.cts.action.ACTION_SUB"
+          Action: "com.android.cts.action.ACTION_SUB_2"
+          Action: "com.android.cts.action.ACTION_SUB_3"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.LOWER_PRIORITY:
+        783e2f9 com.android.cts.priv.ctsshim/.UpgradeLowerPriority filter 7e5b23e
+          Action: "com.android.cts.action.LOWER_PRIORITY"
+          Category: "android.intent.category.INFO"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.cts.action.MATCH:
+        b657854 com.android.cts.priv.ctsshim/.UpgradeMatch filter 9d603fd
+          Action: "com.android.cts.action.MATCH"
+          Category: "android.intent.category.INFO"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.SEARCH:
+        640f09a com.android.cts.priv.ctsshim/.InstallPriority filter 4118dcb
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.INFO"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.SENDTO:
+        640f09a com.android.cts.priv.ctsshim/.InstallPriority filter da93ba7
+          Action: "android.intent.action.SENDTO"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.android.cts.priv.ctsshim]
+      Signing KeySets: 5
+
+Packages:
+  Package [com.android.cts.priv.ctsshim] (4a39848):
+    userId=10008
+    pkg=Package{1bdf6e1 com.android.cts.priv.ctsshim}
+    codePath=/system/priv-app/CtsShimPrivPrebuilt
+    resourcePath=/system/priv-app/CtsShimPrivPrebuilt
+    legacyNativeLibraryDir=/system/priv-app/CtsShimPrivPrebuilt/lib
+    extractNativeLibs=false
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=31 minSdk=24 targetSdk=28
+    minExtensionVersions=[]
+    versionName=12-7552332
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{1bdf6e1 com.android.cts.priv.ctsshim}
+    flags=[ SYSTEM ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.android.cts.priv.ctsshim
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      android.hidl.manager-V1.0-java
+      android.hidl.base-V1.0-java
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.hidl.manager-V1.0-java.jar
+      /system/framework/android.hidl.base-V1.0-java.jar
+    timeStamp=2009-01-01 00:00:00
+    firstInstallTime=2009-01-01 00:00:00
+    lastUpdateTime=2009-01-01 00:00:00
+    signatures=PackageSignatures{220dc06 version:2, signatures:[d7f1f224], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=121926 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=5
+  User 0:
+    seq=0, package=com.android.bluetooth
+    seq=2, package=com.bozee.usbdisplay
+    seq=4, package=com.android.shell
+
+
+Dexopt state:
+  [com.android.cts.priv.ctsshim]
+
+
+Compiler stats:
+  [com.android.cts.priv.ctsshim]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 5082  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:55         now           0           0           0           0           0           0           0
+          1:55        0:55           0           0           0           0           0           0           0
+          2:55        1:55           0           0           0           0           0           0           0
+          3:55        2:55           0           0           0           0           0           0           0
+          4:55        3:55           0           0           0           0           0           0           0
+          5:55        4:55           0           0           0           0           0           0           0
+          6:55        5:55           0           0           0           0           0           0           0
+          7:55        6:55           0           0           0           0           0           0           0
+          8:55        7:55           0           0           0           0           0           0           0
+          9:55        8:55           0           0           0           0           0           0           0
+   20649:09:53:04         now          81       17936           0           2          34         164          38
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:55         now           0           0           0           0           0           0           0           0
+          1:55        0:55           0           0           0           0           0           0           0           0
+          2:55        1:55           0           0           0           0           0           0           0           0
+          3:55        2:55           0           0           0           0           0           0           0           0
+          4:55        3:55           0           0           0           0           0           0           0           0
+          5:55        4:55           0           0           0           0           0           0           0           0
+          6:55        5:55           0           0           0           0           0           0           0           0
+          7:55        6:55           0           0           0           0           0           0           0           0
+          8:55        7:55           0           0           0           0           0           0           0           0
+          9:55        8:55           0           0           0           0           0           0           0           0
+   20649:09:53:04         now          64           5           8           3           0           1           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:55         now           0           0           0           0           0           0           0           0
+          1:55        0:55           0           0           0           0           0           0           0           0
+          2:55        1:55           0           0           0           0           0           0           0           0
+          3:55        2:55           0           0           0           0           0           0           0           0
+          4:55        3:55           0           0           0           0           0           0           0           0
+          5:55        4:55           0           0           0           0           0           0           0           0
+          6:55        5:55           0           0           0           0           0           0           0           0
+          7:55        6:55           0           0           0           0           0           0           0           0
+          8:55        7:55           0           0           0           0           0           0           0           0
+          9:55        8:55           0           0           0           0           0           0           0           0
+   20649:09:53:04         now          21           7           5           0           3           4          13          27

@@ -1,0 +1,4 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c cat /proc/last_kmsg 2>/dev/null || cat /sys/fs/pstore/console-ramoops* 2>/dev/null || true
+# Collected UTC: 2026-07-15T09:53:29Z
+# Timeout: 90s
+

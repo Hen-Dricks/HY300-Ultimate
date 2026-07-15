@@ -1,0 +1,9 @@
+Run ID: 20260715T095220Z
+Mode: public
+ADB serial: [REDACTED]
+Project root: /Users/mac/Park/HY300-Ultimate
+APK pulling: 1
+Reverse engineering helpers: 1
+Full dumpsys: 0
+Per-command timeout: 90s
+Logcat lines: 20000

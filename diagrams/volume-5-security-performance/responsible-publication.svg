@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="922" viewBox="0 0 1200 922">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.16"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#4f46e5"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <text x="600.0" y="58" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">Responsible Publication Workflow</text>
+
+  <rect x="220" y="110" rx="18" ry="18" width="760" height="70" fill="#ffffff" stroke="#c7d2fe" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600.0" y="154" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1e293b">Complete Engineering</text>
+<line x1="600.0" y1="188" x2="600.0" y2="214" stroke="#4f46e5" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="220" y="222" rx="18" ry="18" width="760" height="70" fill="#ffffff" stroke="#c7d2fe" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600.0" y="266" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1e293b">Validate Firmware</text>
+<line x1="600.0" y1="300" x2="600.0" y2="326" stroke="#4f46e5" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="220" y="334" rx="18" ry="18" width="760" height="70" fill="#ffffff" stroke="#c7d2fe" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600.0" y="378" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1e293b">Prepare Documentation</text>
+<line x1="600.0" y1="412" x2="600.0" y2="438" stroke="#4f46e5" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="220" y="446" rx="18" ry="18" width="760" height="70" fill="#ffffff" stroke="#c7d2fe" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600.0" y="490" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1e293b">Generate SHA-256</text>
+<line x1="600.0" y1="524" x2="600.0" y2="550" stroke="#4f46e5" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="220" y="558" rx="18" ry="18" width="760" height="70" fill="#ffffff" stroke="#c7d2fe" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600.0" y="602" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1e293b">Review Limitations</text>
+<line x1="600.0" y1="636" x2="600.0" y2="662" stroke="#4f46e5" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="220" y="670" rx="18" ry="18" width="760" height="70" fill="#ffffff" stroke="#c7d2fe" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600.0" y="714" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1e293b">Publish</text>
+<line x1="600.0" y1="748" x2="600.0" y2="774" stroke="#4f46e5" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="220" y="782" rx="18" ry="18" width="760" height="70" fill="#ffffff" stroke="#c7d2fe" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600.0" y="826" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#1e293b">Maintain</text>
+</svg>

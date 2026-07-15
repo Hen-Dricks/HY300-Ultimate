@@ -1,0 +1,82 @@
+# Command: adb -s [REDACTED_IP]:3268 shell cat /proc/devices
+# Collected UTC: 2026-07-15T09:52:21Z
+# Timeout: 90s
+
+Character devices:
+  1 mem
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+ 10 misc
+ 13 input
+ 21 sg
+ 29 fb
+ 81 video4linux
+ 86 ch
+ 89 i2c
+108 ppp
+116 alsa
+128 ptm
+136 pts
+153 spi
+166 ttyACM
+180 usb
+188 ttyUSB
+189 usb_device
+216 rfcomm
+226 drm
+234 roccat
+235 hidraw
+236 rpmb
+237 ttyGS
+238 usbmon
+239 ttyHS
+240 nvme
+241 mpp_service
+242 bsg
+243 watchdog
+244 tee
+245 iio
+246 ptp
+247 pps
+248 cec
+249 media
+250 rtc
+251 dma_heap
+252 pmsg
+253 ttyFIQ
+254 gpiochip
+510 ATC
+510 BTCMD
+510 BTAUDIO
+510 BTISOC
+510 BTDATA
+510 LOG
+510 BTLOG
+510 BTBOOT
+511 binder
+
+Block devices:
+  1 ramdisk
+  7 loop
+  8 sd
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+179 mmc
+253 device-mapper
+254 zram
+259 blkext

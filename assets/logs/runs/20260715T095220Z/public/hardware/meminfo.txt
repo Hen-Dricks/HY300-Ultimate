@@ -1,0 +1,44 @@
+# Command: adb -s [REDACTED_IP]:3268 shell cat /proc/meminfo
+# Collected UTC: 2026-07-15T09:52:20Z
+# Timeout: 90s
+
+MemTotal:        1979400 kB
+MemFree:           42048 kB
+MemAvailable:     647704 kB
+Buffers:           15032 kB
+Cached:           564720 kB
+SwapCached:        34936 kB
+Active:           284612 kB
+Inactive:         331700 kB
+Active(anon):     171972 kB
+Inactive(anon):   184228 kB
+Active(file):     112640 kB
+Inactive(file):   147472 kB
+Unevictable:        6344 kB
+Mlocked:            2744 kB
+SwapTotal:       1484536 kB
+SwapFree:        1182968 kB
+Dirty:               144 kB
+Writeback:            20 kB
+AnonPages:        330452 kB
+Mapped:           196068 kB
+Shmem:             27588 kB
+KReclaimable:      58560 kB
+Slab:             134108 kB
+SReclaimable:      57604 kB
+SUnreclaim:        76504 kB
+KernelStack:       21056 kB
+PageTables:        22792 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1237116 kB
+Committed_AS:   15078520 kB
+VmallocTotal:   263061440 kB
+VmallocUsed:       33296 kB
+VmallocChunk:          0 kB
+Percpu:             3552 kB
+CmaTotal:          16384 kB
+CmaAllocated:       2328 kB
+CmaReleased:       14056 kB
+CmaFree:               0 kB

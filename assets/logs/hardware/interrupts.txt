@@ -1,0 +1,54 @@
+# Command: adb -s [REDACTED_IP]:3268 shell cat /proc/interrupts
+# Collected UTC: 2026-07-15T09:52:21Z
+# Timeout: 90s
+
+           CPU0       CPU1       CPU2       CPU3       
+  3:     327648     186504     178167     157899     GICv2  30 Level     arch_timer
+  6:      58836      80363      72564      63905     GICv2  62 Level     rk_timer
+  7:          0          0          0          0     GICv2 132 Level     arm-pmu
+  8:          0          0          0          0     GICv2 133 Level     arm-pmu
+  9:          0          0          0          0     GICv2 134 Level     arm-pmu
+ 10:          0          0          0          0     GICv2 135 Level     arm-pmu
+ 14:      30149          0          0          0     GICv2  39 Level     ff180000.i2c
+ 15:       1743          0          0          0     GICv2  41 Level     ff1a0000.i2c
+ 16:          0      18413          0          0     GICv2  56 Level     rk_pwm_irq
+ 17:          0          0          0          0     GICv2  33 Level     ff240000.dmac
+ 18:          0          0          0          0     GICv2  34 Level     ff240000.dmac
+ 19:        504          0          0          0     GICv2  68 Level     rockchip_thermal
+ 20:       8187          0          0          0     GICv2 116 Level     ff288000.saradc
+ 21:     972957          0          0          0     GICv2  94 Level     ff300000.usb, ff300000.usb, dwc2_hsotg:usb1
+ 22:       3544          0          0          0     GICv2  86 Level     dw-mci
+ 23:     646508          0          0          0     GICv2  87 Level     dw-mci
+ 24:     207454          0          0          0     GICv2  85 Level     dw-mci
+ 25:          0          0          0          0     GICv2  89 Level     nandc
+ 26:      13847          0          0          0     GICv2  77 Level     ff400000.gpu
+ 27:         17          0          0          0     GICv2  78 Level     ff400000.gpu
+ 28:      12999          0          0          0     GICv2  79 Level     ff400000.gpu
+ 29:          0          0          0          0     GICv2 111 Level     ff442400.vdpu
+ 30:          0          0          0          0     GICv2 113 Level     ff442800.iommu
+ 31:          0          0          0          0     GICv2 112 Level     ff442000.vepu
+ 32:          0          0          0          0     GICv2  81 Level     ff440000.hevc
+ 33:          0          0          0          0     GICv2  82 Level     ff440440.iommu
+ 34:       9553          0          0          0     GICv2 109 Level     ff460f00.iommu, ff460000.vop
+ 35:          0          0          0          0     GICv2 110 Level     ff470f00.iommu, ff470000.vop
+ 36:          0          0          0          0     GICv2 108 Level     rga2
+ 37:          0          0          0          0     GICv2 102 Level     ff4a8000.iommu, rkisp1
+ 38:          0          0          0          0     GICv2 105 Level     rkisp1
+ 39:          0          0          0          0     GICv2 106 Level     rkisp1
+ 40:          0          0          0          0     GICv2 137 Level     dmc
+ 45:          0          0          0          0     GICv2 100 Level     rockchip_usb2phy_ls
+ 46:          0          0          0          0     GICv2  96 Level     rockchip_usb2phy_ls
+ 47:          0          0          0          0     GICv2  98 Level     rockchip_usb2phy_bvalid
+ 48:          1          0          0          0     GICv2  97 Level     rockchip_usb2phy_id
+ 49:          0          0          0          0     gpio0  13 Level     GPIO Key Home
+ 50:          0          0          0          0     gpio3   8 Level     rk628_csi
+ 51:          0          0          0          0     gpio3   9 Edge      rk628_csi
+ 52:          1          0          0          0     gpio0   7 Edge      bt_default_wake_host_irq
+IPI0:    293120     451717     388048     216487       Rescheduling interrupts
+IPI1:     13191      19553      12504       7557       Function call interrupts
+IPI2:         0          0          0          0       CPU stop interrupts
+IPI3:         0          0          0          0       CPU stop (for crash dump) interrupts
+IPI4:      2078      29174      30930      32539       Timer broadcast interrupts
+IPI5:     27967      22318      20938      21964       IRQ work interrupts
+IPI6:         0          0          0          0       CPU wake-up interrupts
+Err:          0

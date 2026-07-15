@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="828" viewBox="0 0 1200 828">
+<defs><filter id="s"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity=".14"/></filter></defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="600.0" y="58" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">Android Software Architecture</text>
+<rect x="130" y="110" width="940" height="92" rx="18" fill="#e0e7ff" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="148" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">User Applications</text>
+<text x="600" y="180" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Launcher, Settings, media and OEM applications</text>
+<rect x="130" y="218" width="940" height="92" rx="18" fill="#dbeafe" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="256" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Android Framework</text>
+<text x="600" y="288" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Activity Manager, Package Manager, Window Manager, Display Manager</text>
+<rect x="130" y="326" width="940" height="92" rx="18" fill="#dcfce7" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="364" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Android Runtime &amp; Native Services</text>
+<text x="600" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">ART, Binder, SurfaceFlinger, system daemons</text>
+<rect x="130" y="434" width="940" height="92" rx="18" fill="#fef3c7" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="472" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Hardware Abstraction Layer</text>
+<text x="600" y="504" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Standard and vendor-specific HAL modules</text>
+<rect x="130" y="542" width="940" height="92" rx="18" fill="#fee2e2" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="580" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Linux Kernel</text>
+<text x="600" y="612" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Drivers, process scheduling, memory, security and networking</text>
+<rect x="130" y="650" width="940" height="92" rx="18" fill="#f3e8ff" stroke="#64748b" stroke-width="1.5" filter="url(#s)"/>
+<text x="600" y="688" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Hardware</text>
+<text x="600" y="720" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#334155">Rockchip SoC, memory, storage, display and peripherals</text>
+</svg>

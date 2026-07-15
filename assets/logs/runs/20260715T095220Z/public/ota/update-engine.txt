@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell dumpsys update_engine
+# Collected UTC: 2026-07-15T09:53:36Z
+# Timeout: 90s
+
+Can't find service: update_engine

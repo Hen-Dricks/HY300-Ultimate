@@ -1,0 +1,14 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c getprop | grep -Ei "recovery|bootloader|fastboot"
+# Collected UTC: 2026-07-15T09:53:36Z
+# Timeout: 90s
+
+[init.svc.vendor_flash_recovery]: [stopped]
+[init.svc_debug_pid.vendor_flash_recovery]: []
+[persist.sys.boot.reason.history]: [reboot,fastboot,12
+reboot,fastboot,17
+reboot,userrequested,recovery,17]
+[ro.boot.bootreason]: [reboot,fastboot]
+[ro.bootloader]: [unknown]
+[ro.boottime.vendor_flash_recovery]: [12746893718]
+[sys.boot.reason]: [reboot,fastboot]
+[sys.boot.reason.last]: [reboot,fastboot]

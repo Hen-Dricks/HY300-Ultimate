@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell cat /proc/version
+# Collected UTC: 2026-07-15T09:52:21Z
+# Timeout: 90s
+
+Linux version 4.19.232 (txcz@txczhost2) (gcc version 6.3.1 20170404 (Linaro GCC 6.3-2017.05), GNU ld (Linaro_Binutils-2017.05) 2.27.0.20161019) #2624 SMP PREEMPT Thu Dec 4 14:24:11 CST 2025

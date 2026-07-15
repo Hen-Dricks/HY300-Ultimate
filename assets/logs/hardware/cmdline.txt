@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell cat /proc/cmdline
+# Collected UTC: 2026-07-15T09:52:21Z
+# Timeout: 90s
+
+cat: /proc/cmdline: Permission denied

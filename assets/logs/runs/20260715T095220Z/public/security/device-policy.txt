@@ -1,0 +1,117 @@
+# Command: adb -s [REDACTED_IP]:3268 shell dumpsys device_policy
+# Collected UTC: 2026-07-15T09:53:35Z
+# Timeout: 90s
+
+Current Device Policy Manager state:
+  Immutable state:
+    mHasFeature=true
+    mIsWatch=false
+    mIsAutomotive=false
+    mHasTelephonyFeature=false
+    mSafetyChecker=null
+  
+  
+  
+  Enabled Device Admins (User 0, provisioningState: 0):
+  
+    mPasswordOwner=-1
+    mUserControlDisabledPackages=[]
+    mAppsSuspended=false
+    mUserSetupComplete=true
+    mAffiliationIds={}
+    mNewUserDisclaimer=null
+  
+    PersonalAppsSuspensionHelper
+      critical packages: empty
+      launcher packages: 2 apps
+        0: com.shzhtxcz.txbox.launcher
+        1: com.android.tv.set
+      accessibility services: empty
+      input method packages: 1 app
+        0: com.android.inputmethod.latin
+      SMS package: null
+      Settings package: com.android.tv.settings
+      Packages subject to suspension: 14 apps
+        0: com.cybercat.adbappcontrol.tv
+        1: com.lonelycatgames.Xplore
+        2: com.android.rockchip.camera2
+        3: com.roysolberg.android.developertools
+        4: com.amazon.amazonvideo.livingroom
+        5: com.rockchips.mediacenter
+        6: org.xbmc.kodi
+        7: com.netflix.mediaclient
+        8: com.bozee.usbdisplay
+        9: com.surfshark.vpnclient.android
+        10: com.google.android.youtube.tv
+        11: by4a.setedit22
+        12: com.xugame.gameconsole
+        13: com.rockchip.itvbox
+  
+  
+  Constants:
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_SEC: 3600
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_INCREASE: 2.0
+    DAS_DIED_SERVICE_RECONNECT_MAX_BACKOFF_SEC: 86400
+    DAS_DIED_SERVICE_STABLE_CONNECTION_THRESHOLD_SEC: 120
+  
+  Stats:
+    LockGuard.guard(): count=492, total=14.8ms, avg=0.030ms, max calls/s=50 max dur/s=5.6ms max time=5.6ms
+  
+  Encryption Status: per-user
+  Logout user: 0
+  
+  no pending user created callback tokens
+  
+  Device policy cache:
+    Screen capture disabled: {0=false}
+    Password quality: {0=0}
+    Permission policy: {0=0}
+    Admin can grant sensors permission: {0=false}
+  
+  Device state cache:
+    Device provisioned: true
+  
+  OverlayPackagesProvider
+    required_apps_managed_device: 9 apps
+      0: com.android.settings
+      1: com.android.systemui
+      2: com.android.contacts
+      3: com.android.dialer
+      4: com.android.stk
+      5: com.android.providers.downloads
+      6: com.android.providers.downloads.ui
+      7: com.android.documentsui
+      8: com.android.cellbroadcastreceiver
+    required_apps_managed_user: 8 apps
+      0: com.android.settings
+      1: com.android.systemui
+      2: com.android.contacts
+      3: com.android.dialer
+      4: com.android.stk
+      5: com.android.providers.downloads
+      6: com.android.providers.downloads.ui
+      7: com.android.documentsui
+    required_apps_managed_profile: 6 apps
+      0: com.android.contacts
+      1: com.android.settings
+      2: com.android.systemui
+      3: com.android.providers.downloads
+      4: com.android.providers.downloads.ui
+      5: com.android.documentsui
+    disallowed_apps_managed_device: empty
+    disallowed_apps_managed_user: empty
+    disallowed_apps_managed_device: empty
+    vendor_required_apps_managed_device: empty
+    vendor_required_apps_managed_user: empty
+    vendor_required_apps_managed_profile: empty
+    vendor_disallowed_apps_managed_user: empty
+    vendor_disallowed_apps_managed_device: empty
+    vendor_disallowed_apps_managed_profile: empty
+  
+  Other overlayable app resources
+    cross_profile_apps: empty
+    vendor_cross_profile_apps: empty
+    config_packagesExemptFromSuspension: empty
+    policy_exempt_apps: empty
+    vendor_policy_exempt_apps: empty
+  

@@ -1,0 +1,5 @@
+# Command: adb -s [REDACTED_IP]:3268 shell sh -c command -v lsblk >/dev/null && lsblk -f || true
+# Collected UTC: 2026-07-15T09:52:54Z
+# Timeout: 90s
+
+/system/bin/sh: lsblk: inaccessible or not found
