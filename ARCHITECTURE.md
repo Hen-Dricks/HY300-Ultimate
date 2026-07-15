@@ -19,6 +19,7 @@ HY300-Ultimate-Architecture/
 │   │   ├── volume-3-reverse-engineering/
 │   │   ├── volume-4-construction-rom/
 │   │   ├── volume-5-securite-performance/
+│   │   ├── volume-6-chargeur-amorcage/
 │   │   └── annexes/
 │   └── en/
 │       ├── volume-1-discovery/
@@ -26,6 +27,7 @@ HY300-Ultimate-Architecture/
 │       ├── volume-3-reverse-engineering/
 │       ├── volume-4-rom-construction/
 │       ├── volume-5-security-performance/
+│       ├── volume-6-bootloader/
 │       └── appendices/
 ├── diagrams/
 ├── scripts/

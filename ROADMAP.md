@@ -16,4 +16,7 @@ Documentation of the ROM construction process.
 Security, benchmarks, optimization, and final publication.
 
 ## Phase 6
+Bootloader, Fastboot, and low-level platform investigation.
+
+## Phase 7
 GitHub Pages, diagrams, appendices, index, and printable version.
