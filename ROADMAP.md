@@ -19,4 +19,10 @@ Security, benchmarks, optimization, and final publication.
 Bootloader, Fastboot, and low-level platform investigation.
 
 ## Phase 7
+ROM v0.3: GMS removal, performance optimization, boot time reduction.
+
+## Phase 8
+Flash testing, benchmarking, and v1.0 public release preparation.
+
+## Phase 9
 GitHub Pages, diagrams, appendices, index, and printable version.
